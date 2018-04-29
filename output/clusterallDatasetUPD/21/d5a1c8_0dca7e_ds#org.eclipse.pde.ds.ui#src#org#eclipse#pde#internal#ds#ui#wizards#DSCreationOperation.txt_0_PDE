@@ -1,0 +1,6 @@
+0dca7e
+@@ -159,3 +159,3 @@
+ 			}
+-			filePath = header + ", " + filePath; //$NON-NLS-1$
++			filePath = header + ",\n " + filePath; //$NON-NLS-1$
+ 		}

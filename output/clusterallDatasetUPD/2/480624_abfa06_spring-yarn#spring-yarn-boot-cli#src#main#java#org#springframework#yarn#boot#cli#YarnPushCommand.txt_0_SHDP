@@ -1,0 +1,6 @@
+abfa06
+@@ -90,3 +90,3 @@
+ 			app.run();
+-			handleOutput("New instance submitted");
++			handleOutput("New version installed");
+ 		}

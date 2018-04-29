@@ -1,0 +1,6 @@
+b81213
+@@ -52,3 +52,3 @@
+     public ServiceBuilder<C> build(ServiceTarget target) {
+-        return target.addService(this.getServiceName(), new ValueService<>(this)).setInitialMode(ServiceController.Mode.ON_DEMAND);
++        return target.addService(this.getServiceName(), new ValueService<>(this)).setInitialMode(ServiceController.Mode.PASSIVE);
+     }

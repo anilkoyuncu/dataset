@@ -1,0 +1,6 @@
+ed5083
+@@ -97,3 +97,3 @@
+       } catch (TTransportException e) {
+-        throw new SQLException("Could not establish connecton to "
++        throw new SQLException("Could not establish connection to "
+             + uri + ": " + e.getMessage(), "08S01");

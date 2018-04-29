@@ -1,0 +1,6 @@
+f00d21
+@@ -421,3 +421,3 @@
+     populateNonRowFields(cellNum);
+-    return CellComparator.compareStatic(this, key, false);
++    return CellComparator.compareStatic(this, key, true);
+   }

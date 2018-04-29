@@ -1,0 +1,6 @@
+1f47ff
+@@ -499,3 +499,3 @@
+     // is enabled, then we automatically switch off hdfs checksum verification.
+-    this.useHBaseChecksum = conf.getBoolean(HConstants.HBASE_CHECKSUM_VERIFICATION, false);
++    this.useHBaseChecksum = conf.getBoolean(HConstants.HBASE_CHECKSUM_VERIFICATION, true);
+ 

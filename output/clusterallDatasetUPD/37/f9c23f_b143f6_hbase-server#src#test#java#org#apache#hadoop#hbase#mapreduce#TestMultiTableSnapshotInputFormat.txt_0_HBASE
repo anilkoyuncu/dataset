@@ -1,0 +1,7 @@
+b143f6
+@@ -66,4 +66,3 @@
+   public void setUp() throws Exception {
+-    this.restoreDir = TEST_UTIL.getDataTestDir();
+-
++    this.restoreDir = TEST_UTIL.getRandomDir();
+   }

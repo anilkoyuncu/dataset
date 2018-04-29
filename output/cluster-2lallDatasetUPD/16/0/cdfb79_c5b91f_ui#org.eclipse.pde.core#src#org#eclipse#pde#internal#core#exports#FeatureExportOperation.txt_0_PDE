@@ -1,0 +1,6 @@
+c5b91f
+@@ -1049,3 +1049,3 @@
+ 						includes = doc.createElement("includes"); //$NON-NLS-1$
+-						includes.setAttribute("id", feature.getId() + " .source"); //$NON-NLS-1$ //$NON-NLS-2$
++						includes.setAttribute("id", feature.getId() + ".source"); //$NON-NLS-1$ //$NON-NLS-2$
+ 						includes.setAttribute("version", feature.getVersion()); //$NON-NLS-1$

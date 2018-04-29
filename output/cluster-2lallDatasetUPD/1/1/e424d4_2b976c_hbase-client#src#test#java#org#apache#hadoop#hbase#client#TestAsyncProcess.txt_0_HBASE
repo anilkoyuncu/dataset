@@ -1,0 +1,8 @@
+2b976c
+@@ -712,3 +712,5 @@
+     ht.ap = ap;
+-    ht.setAutoFlushTo(false);
++    // This is deprecated method. Using it here only because the new HTable above is a bit of a
++    // perversion skirting a bunch of setup.  Fix the HTable test-only constructor to do more.
++    ht.setAutoFlush(false, true);
+     ht.setWriteBufferSize(0);

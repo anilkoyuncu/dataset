@@ -1,0 +1,6 @@
+164195
+@@ -609,3 +609,3 @@
+    */
+-  public void setDeferredLogFlush(final boolean isDeferredLogFlush) {
++  public synchronized void setDeferredLogFlush(final boolean isDeferredLogFlush) {
+     setValue(DEFERRED_LOG_FLUSH_KEY, isDeferredLogFlush? TRUE: FALSE);

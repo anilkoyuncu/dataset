@@ -1,0 +1,6 @@
+e40027
+@@ -118,3 +118,3 @@
+     if (regions == null) {
+-      LOG.info("No regions under directory:" + snapshotDir);
++      LOG.debug("No regions under directory:" + snapshotDir);
+       return null;

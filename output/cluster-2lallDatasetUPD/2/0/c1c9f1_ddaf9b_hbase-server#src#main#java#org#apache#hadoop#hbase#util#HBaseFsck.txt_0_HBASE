@@ -1,0 +1,6 @@
+ddaf9b
+@@ -3799,3 +3799,3 @@
+     out.println("   -checkCorruptHFiles     Check all Hfiles by opening them to make sure they are valid");
+-    out.println("   -sidelineCorruptHfiles  Quarantine corrupted HFiles.  implies -checkCorruptHfiles");
++    out.println("   -sidelineCorruptHFiles  Quarantine corrupted HFiles.  implies -checkCorruptHFiles");
+ 

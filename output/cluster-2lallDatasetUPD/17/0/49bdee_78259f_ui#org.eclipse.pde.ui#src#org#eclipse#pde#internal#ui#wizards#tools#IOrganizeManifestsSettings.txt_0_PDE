@@ -1,0 +1,6 @@
+78259f
+@@ -7,3 +7,3 @@
+ 	public static final String PROP_INTERAL_PACKAGE_FILTER = "OrganizeManifests.ExportedPackages.packageFilter"; //$NON-NLS-1$
+-	public static final String VALUE_DEFAULT_FILTER = "*.internal.*"; //$NON-NLS-1$
++	public static final String VALUE_DEFAULT_FILTER = "*.internal*"; //$NON-NLS-1$
+ 	public static final String PROP_REMOVE_UNRESOLVED_EX = "OrganizeManifests.ExportedPackages.removeUnresolved"; //$NON-NLS-1$

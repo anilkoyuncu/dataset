@@ -1,0 +1,6 @@
+4549d7
+@@ -26,3 +26,3 @@
+  */
+-interface SynthesizedAnnotation {
++public interface SynthesizedAnnotation {
+ }

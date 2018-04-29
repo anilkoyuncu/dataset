@@ -1,0 +1,6 @@
+7cf4ce
+@@ -1666,3 +1666,3 @@
+ 				GdkRGBA rgba = new GdkRGBA ();
+-				rgba = display.styleContextGetColor (context, OS.GTK_STATE_FLAG_INSENSITIVE, rgba);
++				rgba = display.styleContextGetColor (styleContext, OS.GTK_STATE_FLAG_INSENSITIVE, rgba);
+ 				textColor.red = (short)(rgba.red * 0xFFFF);

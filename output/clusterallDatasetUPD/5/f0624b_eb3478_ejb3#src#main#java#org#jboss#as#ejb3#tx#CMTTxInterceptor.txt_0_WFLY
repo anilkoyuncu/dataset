@@ -1,0 +1,6 @@
+eb3478
+@@ -97,3 +97,3 @@
+                 // clear current tx state and throw RollbackException (EJBTransactionRolledbackException)
+-                tm.suspend();
++                tm.rollback();
+                 throw EjbLogger.ROOT_LOGGER.transactionAlreadyRolledBack(tx);

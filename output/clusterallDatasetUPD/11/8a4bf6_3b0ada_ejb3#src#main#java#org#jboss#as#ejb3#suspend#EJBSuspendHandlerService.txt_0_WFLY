@@ -1,0 +1,6 @@
+3b0ada
+@@ -317,3 +317,3 @@
+         final ServerActivityCallback oldListener = listener;
+-        if (listenerUpdater.compareAndSet(this, oldListener, null)) {
++        if (oldListener != null && listenerUpdater.compareAndSet(this, oldListener, null)) {
+             deploymentRepositoryInjectedValue.getValue().suspend();

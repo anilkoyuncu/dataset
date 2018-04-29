@@ -1,0 +1,6 @@
+08a917
+@@ -193,3 +193,3 @@
+   @Override
+-  public void postLogRoll(Path oldPath, Path newPath) {
++  public void postLogRoll(Path oldPath, Path newPath) throws IOException {
+     getReplicationManager().logRolled(newPath);

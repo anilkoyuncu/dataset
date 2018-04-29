@@ -1,0 +1,6 @@
+7159d9
+@@ -227,3 +227,3 @@
+ 		bodyBuilder.appendFormalLine("uiModel.addAttribute(\"size\", (size == null) ? \"10\" : size.toString());");
+-		bodyBuilder.appendFormalLine("return \"redirect:/" + controllerPath + "?page=\" + ((page == null) ? \"1\" : page.toString()) + \"&size=\" + ((size == null) ? \"10\" : size.toString());");
++		bodyBuilder.appendFormalLine("return \"redirect:/" + controllerPath + "\";");
+ 

@@ -1,0 +1,6 @@
+ea9eb8
+@@ -166,3 +166,3 @@
+ 	@Test
+-	public void tomcatDefaultServletFolderWithCompliantSetting() throws Exception {
++	public void wasDefaultServletFolderWithCompliantSetting() throws Exception {
+ 		request.setAttribute(WEBSPHERE_URI_ATTRIBUTE, "/test/foo/");

@@ -1,0 +1,6 @@
+6ca86b
+@@ -271,3 +271,3 @@
+     try (RegionLocator locator = connection.getRegionLocator(tn)) {
+-      regionLoc = locator.getRegionLocation(regionName);
++      regionLoc = locator.getRegionLocation(regionName, true);
+     }

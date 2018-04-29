@@ -1,0 +1,6 @@
+b692b9
+@@ -16,3 +16,3 @@
+ 
+-public class Literal extends Test {
++public final class Literal extends Test {
+ 

@@ -1,0 +1,6 @@
+5f50e8
+@@ -606,3 +606,3 @@
+ 						TypeVariable variable = tVars[i];
+-						signature.append(variable.getSignature());
++						signature.append(variable.getSignatureForAttribute());
+ 					}

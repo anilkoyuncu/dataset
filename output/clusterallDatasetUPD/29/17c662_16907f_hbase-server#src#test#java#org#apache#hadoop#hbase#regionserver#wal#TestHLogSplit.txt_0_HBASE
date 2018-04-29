@@ -1,0 +1,6 @@
+16907f
+@@ -727,3 +727,3 @@
+             HBASEDIR, HLOGDIR, OLDLOGDIR, fs);
+-        splits = logSplitter.splitLog();
++        splits = logSplitter.splitLog(latch);
+       } catch (IOException ex) {

@@ -1,0 +1,8 @@
+5d381b
+@@ -55,5 +55,4 @@
+     @Test
+-    @Ignore("[ENTESB-1035] connector feature does not install")
+     public void testJpaHibernate() throws Exception {
+-        installUninstallCommand("jpa-hibernate");
++        installUninstallCommand("jpa-hibernate", false);
+     }

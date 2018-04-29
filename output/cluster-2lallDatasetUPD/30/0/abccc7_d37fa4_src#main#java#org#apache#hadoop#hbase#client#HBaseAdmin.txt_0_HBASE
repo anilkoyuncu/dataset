@@ -1,0 +1,6 @@
+d37fa4
+@@ -347,3 +347,3 @@
+                   HConstants.REGIONINFO_QUALIFIER));
+-          if (!(Bytes.equals(info.getTableDesc().getName(), desc.getName()))) {
++          if (!(Bytes.equals(info.getTableName(), desc.getName()))) {
+             return false;

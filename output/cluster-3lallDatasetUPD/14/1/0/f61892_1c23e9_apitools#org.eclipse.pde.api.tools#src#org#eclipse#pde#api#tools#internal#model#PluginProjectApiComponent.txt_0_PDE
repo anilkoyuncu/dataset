@@ -1,0 +1,6 @@
+1c23e9
+@@ -188,3 +188,3 @@
+ 	 */
+-	protected List createApiTypeContainers() throws CoreException {
++	protected synchronized List createApiTypeContainers() throws CoreException {
+ 		// first populate build.properties cache so we can create class file containers

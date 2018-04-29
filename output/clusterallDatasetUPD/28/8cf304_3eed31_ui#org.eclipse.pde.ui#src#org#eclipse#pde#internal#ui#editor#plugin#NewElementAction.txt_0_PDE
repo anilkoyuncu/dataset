@@ -1,0 +1,6 @@
+3eed31
+@@ -35,3 +35,3 @@
+ 		this.parent = parent;
+-		if (elementInfo.isDeprecated()) {
++		if (elementInfo != null && elementInfo.isDeprecated()) {
+ 			setText(NLS.bind(PDEUIMessages.NewElement_deprecated, getElementName()));

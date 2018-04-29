@@ -1,0 +1,6 @@
+33272e
+@@ -228,3 +228,3 @@
+         } finally {
+-            cliProc.destroyProcess();
++            cliProc.ctrlCAndWaitForClose();
+         }

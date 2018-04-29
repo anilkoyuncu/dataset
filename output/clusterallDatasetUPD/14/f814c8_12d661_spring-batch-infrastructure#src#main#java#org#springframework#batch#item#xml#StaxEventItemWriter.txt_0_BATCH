@@ -1,0 +1,6 @@
+12d661
+@@ -346,3 +346,3 @@
+ 	 */
+-	private void startDocument(XMLEventWriter writer) throws XMLStreamException {
++	protected void startDocument(XMLEventWriter writer) throws XMLStreamException {
+ 

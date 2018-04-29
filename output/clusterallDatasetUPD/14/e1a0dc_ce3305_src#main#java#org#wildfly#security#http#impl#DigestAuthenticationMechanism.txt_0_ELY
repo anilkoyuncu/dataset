@@ -1,0 +1,6 @@
+ce3305
+@@ -225,3 +225,3 @@
+ 
+-    public void sendAuthenticationInfoHeader(final HttpServerResponse response, String currentNonce, byte[] salt) throws AuthenticationMechanismException {
++    private void sendAuthenticationInfoHeader(final HttpServerResponse response, String currentNonce, byte[] salt) throws AuthenticationMechanismException {
+         String nextNonce = currentNonce;

@@ -1,0 +1,6 @@
+b76b75
+@@ -64,3 +64,3 @@
+ 
+-    private long mvcc;
++    private volatile long mvcc;
+ 

@@ -1,0 +1,6 @@
+3e8932
+@@ -20,3 +20,3 @@
+  */
+-public class WildcardedUnresolvedType extends UnresolvedType implements Unresolved {
++public class WildcardedUnresolvedType extends UnresolvedType {
+ 

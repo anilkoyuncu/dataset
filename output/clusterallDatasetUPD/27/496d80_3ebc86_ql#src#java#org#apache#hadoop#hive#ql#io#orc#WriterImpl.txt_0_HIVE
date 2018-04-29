@@ -1,0 +1,6 @@
+3ebc86
+@@ -1940,3 +1940,3 @@
+         byte[] pad = new byte[(int) Math.min(HDFS_BUFFER_SIZE, padding)];
+-        LOG.info(String.format("Padding ORC by %d bytes (<=  %0.2f * %d)", 
++        LOG.info(String.format("Padding ORC by %d bytes (<=  %.2f * %d)", 
+             padding, availRatio, defaultStripeSize));

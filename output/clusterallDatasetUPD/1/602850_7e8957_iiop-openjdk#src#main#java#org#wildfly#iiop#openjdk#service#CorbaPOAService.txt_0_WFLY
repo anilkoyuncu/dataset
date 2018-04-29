@@ -1,0 +1,6 @@
+7e8957
+@@ -193,3 +193,3 @@
+         if (this.poa.the_parent() == null)
+-           this.poa.destroy(false, false);
++           this.poa.destroy(false, true);
+     }

@@ -1,0 +1,6 @@
+c74f9d
+@@ -686,3 +686,3 @@
+     System.err.println(" sourcehashdir    path to HashTable output dir for source table");
+-    System.err.println("                  if not specified, then all data will be scanned");
++    System.err.println("                  (see org.apache.hadoop.hbase.mapreduce.HashTable)");
+     System.err.println(" sourcetable      Name of the source table to sync from");

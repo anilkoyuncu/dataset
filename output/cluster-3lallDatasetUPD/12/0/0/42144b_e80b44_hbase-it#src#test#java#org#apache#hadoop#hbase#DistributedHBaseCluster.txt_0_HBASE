@@ -1,0 +1,8 @@
+e80b44
+@@ -433,4 +433,4 @@
+     Set<ServerName> toKill = new TreeSet<ServerName>(new ServerNameIgnoreStartCodeComparator());
+-    toStart.addAll(initial.getBackupMasters());
+-    toKill.addAll(current.getBackupMasters());
++    toStart.addAll(initial.getServers());
++    toKill.addAll(current.getServers());
+ 

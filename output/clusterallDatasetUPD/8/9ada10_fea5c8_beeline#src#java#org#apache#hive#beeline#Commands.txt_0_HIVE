@@ -1,0 +1,6 @@
+fea5c8
+@@ -1318,3 +1318,3 @@
+       String saveUrl = getUrlToUse(url);
+-      props.setProperty(JdbcConnectionParams.PROPERTY_URL, url);
++      props.setProperty(JdbcConnectionParams.PROPERTY_URL, saveUrl);
+     }

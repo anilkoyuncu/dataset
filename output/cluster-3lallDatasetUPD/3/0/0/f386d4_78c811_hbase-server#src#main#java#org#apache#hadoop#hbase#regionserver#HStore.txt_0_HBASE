@@ -1,0 +1,6 @@
+78c811
+@@ -142,3 +142,3 @@
+    */
+-  private ImmutableList<StoreFile> storefiles = null;
++  private volatile ImmutableList<StoreFile> storefiles = null;
+ 

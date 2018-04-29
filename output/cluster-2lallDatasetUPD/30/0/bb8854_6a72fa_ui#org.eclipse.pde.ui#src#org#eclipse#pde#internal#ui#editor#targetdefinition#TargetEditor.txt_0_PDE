@@ -1,0 +1,6 @@
+6a72fa
+@@ -209,3 +209,3 @@
+ 			protected Control createControl(Composite parent) {
+-				final ImageHyperlink hyperlink = new ImageHyperlink(parent, SWT.NONE);
++				final ImageHyperlink hyperlink = new ImageHyperlink(parent, SWT.NONE | SWT.NO_FOCUS);
+ 				hyperlink.setText(PDEUIMessages.AbstractTargetPage_setTarget);

@@ -1,0 +1,6 @@
+010bb9
+@@ -30,3 +30,3 @@
+ 		ISchema schema = (ISchema) fEditor.getAggregateModel();
+-		if (schema.isValid()) {
++		if (schema != null && schema.isValid()) {
+ 			if (parent instanceof SchemaFormPage) {

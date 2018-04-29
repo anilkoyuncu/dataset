@@ -1,0 +1,6 @@
+8771f0
+@@ -611,3 +611,3 @@
+         public Parameters setDeprecatedSince(ModelVersion deprecatedSince) {
+-            if (deprecationData == null) {
++            if (deprecatedSince == null) {
+                 throw ControllerLogger.ROOT_LOGGER.nullVar("deprecatedSince");

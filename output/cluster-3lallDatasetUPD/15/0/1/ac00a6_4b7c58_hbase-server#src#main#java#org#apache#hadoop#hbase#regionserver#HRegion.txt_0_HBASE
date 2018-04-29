@@ -1,0 +1,6 @@
+4b7c58
+@@ -838,3 +838,3 @@
+     }
+-    return this.memstoreSize.getAndAdd(memStoreSize);
++    return this.memstoreSize.addAndGet(memStoreSize);
+   }

@@ -1,0 +1,6 @@
+e59264
+@@ -289,3 +289,3 @@
+                 final ModuleLoader moduleLoader = ModuleLoader.forClass(HandlerOperations.class);
+-                final ModuleIdentifier id = ModuleIdentifier.create(moduleName);
++                final ModuleIdentifier id = ModuleIdentifier.fromString(moduleName);
+                 try {

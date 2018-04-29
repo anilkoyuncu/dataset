@@ -1,0 +1,8 @@
+90ca32
+@@ -310,4 +310,4 @@
+ 	
+-	if (!expandHorizontal && contentRect.height > hostRect.height) return true;
+-	if (expandHorizontal && minHeight > hostRect.height) return true;
++	if (!expandVertical && contentRect.height > hostRect.height) return true;
++	if (expandVertical && minHeight > hostRect.height) return true;
+ 	return false;

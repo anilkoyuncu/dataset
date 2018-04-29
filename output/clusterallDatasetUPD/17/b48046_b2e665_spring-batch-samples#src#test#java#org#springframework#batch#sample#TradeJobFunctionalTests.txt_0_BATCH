@@ -1,0 +1,8 @@
+b2e665
+@@ -37,4 +37,4 @@
+ 
+-	private static final String GET_TRADES = "SELECT isin, quantity, price, customer FROM trade";
+-	private static final String GET_CUSTOMERS = "SELECT name, credit FROM customer";
++	private static final String GET_TRADES = "select ISIN, QUANTITY, PRICE, CUSTOMER from TRADE order by ISIN";
++	private static final String GET_CUSTOMERS = "select NAME, CREDIT from CUSTOMER order by NAME";
+ 	

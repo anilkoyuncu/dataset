@@ -1,0 +1,6 @@
+8e0e63
+@@ -166,3 +166,3 @@
+         LOG.info("Failed rollback of failed split of " +
+-          parent.getRegionNameAsString() + " -- aborting server", e);
++          parent.getRegionNameAsString() + " -- aborting server", ee);
+         this.server.abort("Failed split");

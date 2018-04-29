@@ -1,0 +1,6 @@
+c3bb3b
+@@ -7284,3 +7284,3 @@
+         if (walEdit != null && !walEdit.isEmpty()) {
+-          writeEntry = doWALAppend(walEdit, durability, nonceGroup, nonce);
++          writeEntry = doWALAppend(walEdit, effectiveDurability, nonceGroup, nonce);
+         } else {

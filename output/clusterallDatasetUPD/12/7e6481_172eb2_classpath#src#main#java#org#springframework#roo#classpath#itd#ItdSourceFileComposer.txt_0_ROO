@@ -1,0 +1,9 @@
+172eb2
+@@ -183,5 +183,5 @@
+ 			if (resolver.isFullyQualifiedFormRequiredAfterAutoImport(extendsType)) {
+-				this.append(extendsType.getFullyQualifiedTypeName());
++				this.append(extendsType.getNameIncludingTypeParameters());
+ 			} else {
+-				this.append(extendsType.getSimpleTypeName());
++				this.append(extendsType.getNameIncludingTypeParameters(false, resolver));
+ 			}

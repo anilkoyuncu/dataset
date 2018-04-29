@@ -1,0 +1,6 @@
+c28917
+@@ -81,3 +81,3 @@
+ 				else if (e.getHref().equals("hierarchy")) //$NON-NLS-1$
+-					OpenDependenciesAction.openDependencies((IPluginModelBase)getPage().getModel());
++					OpenDependenciesAction.openDependencies(PluginRegistry.findModel(getProject()));
+ 			}

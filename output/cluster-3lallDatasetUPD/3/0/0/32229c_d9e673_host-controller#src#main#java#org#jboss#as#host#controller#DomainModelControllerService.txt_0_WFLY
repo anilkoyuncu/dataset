@@ -1,0 +1,8 @@
+d9e673
+@@ -190,4 +190,4 @@
+     private final AtomicBoolean serverInventoryLock = new AtomicBoolean();
+-    // @GuardedBy(serverInventoryLock)
+-    private ServerInventory serverInventory;
++    // @GuardedBy(serverInventoryLock), after the HC started reads just use the volatile value
++    private volatile ServerInventory serverInventory;
+ 

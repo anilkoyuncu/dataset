@@ -1,0 +1,6 @@
+e32808
+@@ -69,3 +69,3 @@
+ 			// now unwrap scoped proxy
+-			resourceRef = ScopedProxyUnwrapper.unwrapIfNecessary(resource);
++			resourceRef = ScopedProxyUnwrapper.unwrapIfNecessary(resourceRef);
+ 		}

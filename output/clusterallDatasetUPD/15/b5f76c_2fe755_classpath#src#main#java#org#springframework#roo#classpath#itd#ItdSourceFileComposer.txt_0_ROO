@@ -1,0 +1,11 @@
+2fe755
+@@ -110,5 +110,7 @@
+ 		if (introductionTo.isDefaultPackage()) {
+-			return introductionTo.getFullyQualifiedTypeNameIncludingTypeParameterNames();
++			return introductionTo.getFullyQualifiedTypeName();
++			//return introductionTo.getFullyQualifiedTypeNameIncludingTypeParameterNames();
+ 		}
+-		return introductionTo.getFullyQualifiedTypeNameIncludingTypeParameterNames().substring(introductionTo.getPackage().getFullyQualifiedPackageName().length()+1);
++		return introductionTo.getFullyQualifiedTypeName().substring(introductionTo.getPackage().getFullyQualifiedPackageName().length()+1);
++		//return introductionTo.getFullyQualifiedTypeNameIncludingTypeParameterNames().substring(introductionTo.getPackage().getFullyQualifiedPackageName().length()+1);
+ 	}

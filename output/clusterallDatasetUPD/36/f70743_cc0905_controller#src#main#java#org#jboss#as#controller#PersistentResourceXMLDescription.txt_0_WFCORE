@@ -1,0 +1,6 @@
+cc0905
+@@ -494,3 +494,3 @@
+         private String forcedName;
+-        private boolean marshallDefaultValues = false;
++        private boolean marshallDefaultValues = true;
+         private String nameAttributeName = NAME;

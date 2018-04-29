@@ -1,0 +1,6 @@
+c82089
+@@ -263,3 +263,3 @@
+     try {
+-      TableMapReduceUtil.addDependencyJars(conf, Class.forName(codecCls));
++      TableMapReduceUtil.addDependencyJars(job.getConfiguration(), Class.forName(codecCls));
+     } catch (Exception e) {

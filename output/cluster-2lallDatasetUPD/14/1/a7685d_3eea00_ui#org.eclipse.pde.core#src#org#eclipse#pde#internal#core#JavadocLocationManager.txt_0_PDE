@@ -1,0 +1,6 @@
+3eea00
+@@ -41,3 +41,3 @@
+ 
+-	private String getEntry(IPluginModelBase model) {
++	private synchronized String getEntry(IPluginModelBase model) {
+ 		initialize();

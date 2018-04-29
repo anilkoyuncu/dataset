@@ -1,0 +1,6 @@
+55d6dc
+@@ -131,3 +131,3 @@
+     for (int i = 0; i < sorted_files.size(); i++) {
+-      StoreFileReader r = sorted_files.get(i).createReader();
++      StoreFileReader r = sorted_files.get(i).createReader(canUseDrop);
+       r.setReplicaStoreFile(isPrimaryReplica);

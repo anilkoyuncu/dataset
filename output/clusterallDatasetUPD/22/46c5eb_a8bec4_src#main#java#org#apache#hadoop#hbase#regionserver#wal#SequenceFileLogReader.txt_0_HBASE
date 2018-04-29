@@ -1,0 +1,8 @@
+a8bec4
+@@ -108,4 +108,4 @@
+             Object realIn = fIn.get(this.in);
+-            Method getFileLength = realIn.getClass().
+-              getMethod("getFileLength", new Class<?> []{});
++            Method getFileLength = realIn.getClass()
++                .getDeclaredMethod("getFileLength", new Class<?> []{});
+             getFileLength.setAccessible(true);

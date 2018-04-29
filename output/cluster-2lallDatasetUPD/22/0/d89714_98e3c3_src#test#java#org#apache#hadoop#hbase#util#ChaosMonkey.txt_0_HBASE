@@ -1,0 +1,6 @@
+98e3c3
+@@ -268,3 +268,3 @@
+       LOG.info("Performing action: Restart region server holding ROOT");
+-      ServerName server = cluster.getServerHoldingMeta();
++      ServerName server = cluster.getServerHoldingRoot();
+       if (server == null) {

@@ -1,0 +1,6 @@
+32b046
+@@ -214,3 +214,3 @@
+         }
+-        RCFileMergeMapper.jobClose(outputPath, noName, job, console);
++        RCFileMergeMapper.jobClose(outputPath, success, job, console);
+       } catch (Exception e) {

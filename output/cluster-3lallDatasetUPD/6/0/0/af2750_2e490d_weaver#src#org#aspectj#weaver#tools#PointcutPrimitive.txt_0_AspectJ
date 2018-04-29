@@ -1,0 +1,6 @@
+2e490d
+@@ -18,3 +18,3 @@
+  */
+-public class PointcutPrimitive extends TypeSafeEnum {
++public final class PointcutPrimitive extends TypeSafeEnum {
+ 

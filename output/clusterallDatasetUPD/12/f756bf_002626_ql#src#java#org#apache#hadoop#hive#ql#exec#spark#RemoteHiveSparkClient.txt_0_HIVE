@@ -1,0 +1,7 @@
+002626
+@@ -240,3 +240,4 @@
+     }
+-    addJars(conf.get(MR_JAR_PROPERTY));
++    addJars(jobConf.get(MR_JAR_PROPERTY));
++
+     // remove the location of container tokens

@@ -1,0 +1,6 @@
+7609c4
+@@ -77,3 +77,3 @@
+   
+-  public void testCheckColumn_WrongOrder() {
++  public void DisabledTestCheckColumn_WrongOrder() {
+     //Create a WildcardColumnTracker

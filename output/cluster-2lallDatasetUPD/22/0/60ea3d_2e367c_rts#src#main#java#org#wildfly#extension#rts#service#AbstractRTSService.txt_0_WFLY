@@ -1,0 +1,6 @@
+2e367c
+@@ -104,3 +104,3 @@
+         final String address = injectedSocketBinding.getValue().getAddress().getHostAddress();
+-        final int port = injectedSocketBinding.getValue().getPort();
++        final int port = injectedSocketBinding.getValue().getAbsolutePort();
+ 

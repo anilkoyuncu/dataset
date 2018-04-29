@@ -1,0 +1,6 @@
+fd9866
+@@ -47,3 +47,3 @@
+ 			Pageable.class.getSimpleName(), Sort.class.getSimpleName());
+-	private static final ParameterNameDiscoverer PARAMETER_DISCOVERER = ReflectionUtils.createInstanceIfPresent(
++	private final ParameterNameDiscoverer PARAMETER_DISCOVERER = ReflectionUtils.createInstanceIfPresent(
+ 			"org.springframework.core.DefaultParameterNameDiscoverer", new LocalVariableTableParameterNameDiscoverer());

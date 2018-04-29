@@ -1,0 +1,7 @@
+3b5087
+@@ -64,3 +64,4 @@
+ 	public void testMatchEquivalent() {
+-		IPluginModelBase model = PluginRegistry.findModel("org.eclipse.pde.core", "3.10.0", IMatchRules.EQUIVALENT, null);
++		IPluginModelBase model = PluginRegistry.findModel("org.eclipse.pde.core", "3.11.0", IMatchRules.EQUIVALENT,
++				null);
+ 		assertNotNull(model);

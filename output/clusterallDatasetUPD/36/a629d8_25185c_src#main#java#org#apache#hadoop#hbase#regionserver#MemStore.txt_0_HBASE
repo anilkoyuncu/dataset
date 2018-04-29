@@ -1,0 +1,6 @@
+25185c
+@@ -62,3 +62,3 @@
+     "hbase.hregion.memstore.mslab.enabled";
+-  private static final boolean USEMSLAB_DEFAULT = false;
++  private static final boolean USEMSLAB_DEFAULT = true;
+ 

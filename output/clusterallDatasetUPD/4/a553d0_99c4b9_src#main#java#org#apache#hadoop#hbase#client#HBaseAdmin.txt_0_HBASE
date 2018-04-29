@@ -1,0 +1,6 @@
+99c4b9
+@@ -492,3 +492,3 @@
+         MetaScanner.metaScan(conf, connection, visitor, desc.getName());
+-        if (actualRegCount.get() != numRegs) {
++        if (actualRegCount.get() < numRegs) {
+           if (tries == this.numRetries * this.retryLongerMultiplier - 1) {

@@ -1,0 +1,6 @@
+9f4e2d
+@@ -48,3 +48,3 @@
+ 			int width = area.width - 2*table.getBorderWidth();
+-			if (preferredSize.y > area.height) {
++			if (preferredSize.y > area.height + table.getHeaderHeight()) {
+ 				// Subtract the scrollbar width from the total column width

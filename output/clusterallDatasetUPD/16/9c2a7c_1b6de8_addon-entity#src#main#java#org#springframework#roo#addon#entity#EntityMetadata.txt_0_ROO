@@ -1,0 +1,6 @@
+1b6de8
+@@ -1007,3 +1007,3 @@
+ 		} else {
+-			bodyBuilder.appendFormalLine("return " + ENTITY_MANAGER_METHOD_NAME + "().createQuery(\"SELECT COUNT(*) FROM " + typeName + " o\", Long.class).getSingleResult();");
++			bodyBuilder.appendFormalLine("return " + ENTITY_MANAGER_METHOD_NAME + "().createQuery(\"SELECT COUNT(o) FROM " + typeName + " o\", Long.class).getSingleResult();");
+ 		}

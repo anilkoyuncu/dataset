@@ -1,0 +1,6 @@
+3444e2
+@@ -164,3 +164,3 @@
+   private static final Pattern REF_NAME_PARSER =
+-    Pattern.compile("^(\\d+)(?:\\.(.+))?$");
++    Pattern.compile("^([0-9a-f]+)(?:\\.(.+))?$");
+ 

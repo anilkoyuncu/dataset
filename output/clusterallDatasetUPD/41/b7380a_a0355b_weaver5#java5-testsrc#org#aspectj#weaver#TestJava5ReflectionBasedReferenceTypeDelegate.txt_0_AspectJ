@@ -1,0 +1,6 @@
+a0355b
+@@ -37,3 +37,3 @@
+ 		// String expectedSignature = "java.lang.Object[] java.util.Collection.toArray(java.lang.Object[])";
+-		String expectedSignature = "([Ljava/lang/Object;)Ljava/lang/Object;";
++		String expectedSignature = "([Ljava/lang/Object;)[Ljava/lang/Object;";
+ 		assertTrue("Expected signature of '" + expectedSignature + "' but it was '" + methods[i].getSignatureErased(), methods[i]

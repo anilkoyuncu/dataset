@@ -1,0 +1,6 @@
+ec4adb
+@@ -38,3 +38,3 @@
+ 	// Constants
+-	public static final String COMPLETION_KEY = "TAB";
++	public static String COMPLETION_KEY = "TAB";
+ 	private static final String MY_SLOT = AbstractShell.class.getName();

@@ -1,0 +1,6 @@
+e4ad55
+@@ -602,3 +602,3 @@
+ 
+-    f.getReader().close(true);
++    f.closeReader(true);
+ 

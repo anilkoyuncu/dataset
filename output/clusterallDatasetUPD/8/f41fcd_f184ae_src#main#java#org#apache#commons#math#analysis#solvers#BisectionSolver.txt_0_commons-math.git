@@ -1,0 +1,6 @@
+f184ae
+@@ -71,3 +71,3 @@
+         throws MaxIterationsExceededException, FunctionEvaluationException {
+-        return solve(min, max);
++        return solve(f, min, max);
+     }

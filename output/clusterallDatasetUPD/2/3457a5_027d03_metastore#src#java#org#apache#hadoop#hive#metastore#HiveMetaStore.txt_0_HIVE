@@ -1,0 +1,6 @@
+027d03
+@@ -5489,3 +5489,3 @@
+       } finally {
+-        endFunction("get_database", func != null, ex);
++        endFunction("get_function", func != null, ex);
+       }

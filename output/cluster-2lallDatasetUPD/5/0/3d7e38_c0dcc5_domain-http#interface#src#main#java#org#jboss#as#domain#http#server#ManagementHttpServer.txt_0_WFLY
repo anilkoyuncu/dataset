@@ -1,0 +1,6 @@
+c0dcc5
+@@ -211,3 +211,3 @@
+         } catch (ModuleLoadException e) {
+-            ROOT_LOGGER.error(consoleSlot == null ? "main" : consoleSlot);
++            ROOT_LOGGER.errorContextModuleNotFound(consoleSlot == null ? "main" : consoleSlot);
+         }

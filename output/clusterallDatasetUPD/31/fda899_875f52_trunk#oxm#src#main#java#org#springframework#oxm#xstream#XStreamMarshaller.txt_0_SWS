@@ -1,0 +1,6 @@
+875f52
+@@ -272,3 +272,3 @@
+     public void addOmittedField(Class type, String fieldName) {
+-        xstream.omitField(type, fieldName);
++        getXStream().omitField(type, fieldName);
+     }

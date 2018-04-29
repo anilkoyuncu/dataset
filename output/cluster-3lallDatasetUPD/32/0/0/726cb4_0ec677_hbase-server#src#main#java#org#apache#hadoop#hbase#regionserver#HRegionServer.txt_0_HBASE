@@ -1,0 +1,6 @@
+0ec677
+@@ -1044,3 +1044,3 @@
+   private long getWriteRequestCount() {
+-    int writeCount = 0;
++    long writeCount = 0;
+     for (Map.Entry<String, HRegion> e: this.onlineRegions.entrySet()) {

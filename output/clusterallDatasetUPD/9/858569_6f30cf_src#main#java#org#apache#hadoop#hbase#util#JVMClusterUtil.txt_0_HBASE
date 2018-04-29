@@ -1,0 +1,6 @@
+6f30cf
+@@ -154,3 +154,3 @@
+       Throwable target = ite.getTargetException();
+-      throw new RuntimeException("Failed construction of RegionServer: " +
++      throw new RuntimeException("Failed construction of Master: " +
+         hmc.toString() + ((target.getCause() != null)?

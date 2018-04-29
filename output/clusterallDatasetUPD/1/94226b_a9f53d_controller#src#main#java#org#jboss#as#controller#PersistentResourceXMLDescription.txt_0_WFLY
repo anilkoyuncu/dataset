@@ -1,0 +1,6 @@
+a9f53d
+@@ -214,3 +214,3 @@
+             for (Map.Entry<String, AttributeDefinition> def : attributes.entrySet()) {
+-                def.getValue().getAttributeMarshaller().marshallAsAttribute(def.getValue(), model, false, writer);
++                def.getValue().getAttributeMarshaller().marshallAsAttribute(def.getValue(), model, true, writer);
+             }

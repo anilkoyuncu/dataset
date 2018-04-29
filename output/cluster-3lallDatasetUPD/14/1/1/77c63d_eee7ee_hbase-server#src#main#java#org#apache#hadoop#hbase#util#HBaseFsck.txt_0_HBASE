@@ -1,0 +1,6 @@
+eee7ee
+@@ -3247,3 +3247,3 @@
+    */
+-  public void setDisplayFullReport() {
++  public static void setDisplayFullReport() {
+     details = true;

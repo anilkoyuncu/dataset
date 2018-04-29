@@ -1,0 +1,6 @@
+0a962e
+@@ -536,3 +536,3 @@
+ 				bodyBuilder.appendFormalLine("return " + javaTypePersistenceMd.getFindAllMethod().getMethodCall() + ";");
+-				javaTypePersistenceMd.getFindMethod().copyAdditionsTo(builder, governorTypeDetails);
++				javaTypePersistenceMd.getFindAllMethod().copyAdditionsTo(builder, governorTypeDetails);
+ 			} else if (javaTypeMd.isEnumType()) {

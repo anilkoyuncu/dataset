@@ -1,0 +1,6 @@
+8983fd
+@@ -54,3 +54,3 @@
+ 	static final int RIGHT_MARGIN = 4;
+-	static final int INTERNAL_SPACING = 2;
++	static final int INTERNAL_SPACING = 4;
+ 	static final int FLAGS = SWT.DRAW_TRANSPARENT | SWT.DRAW_MNEMONIC;

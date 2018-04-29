@@ -1,0 +1,6 @@
+73b5d4
+@@ -229,3 +229,3 @@
+             element.setAttribute("commandId", "org.eclipse.ui.file.exit"); //$NON-NLS-1$ //$NON-NLS-2$
+-            element.setAttribute("keySequence", "CTRL+X"); //$NON-NLS-1$ //$NON-NLS-2$
++            element.setAttribute("keySequence", "CTRL+Q"); //$NON-NLS-1$ //$NON-NLS-2$
+             element.setAttribute("keyConfigurationId", "org.eclipse.ui.defaultAcceleratorConfiguration");    //$NON-NLS-1$ //$NON-NLS-2$

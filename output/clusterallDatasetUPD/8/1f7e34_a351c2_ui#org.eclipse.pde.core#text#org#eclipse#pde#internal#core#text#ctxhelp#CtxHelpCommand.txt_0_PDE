@@ -1,0 +1,6 @@
+a351c2
+@@ -79,3 +79,3 @@
+ 	public void setSerialization(String serialization) {
+-		setXMLAttribute(ATTRIBUTE_HREF, serialization);
++		setXMLAttribute(ATTRIBUTE_SERIAL, serialization);
+ 	}

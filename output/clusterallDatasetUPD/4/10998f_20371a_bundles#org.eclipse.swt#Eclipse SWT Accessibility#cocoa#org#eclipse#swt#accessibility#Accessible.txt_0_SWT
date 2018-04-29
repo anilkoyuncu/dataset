@@ -1,0 +1,6 @@
+20371a
+@@ -2354,3 +2354,3 @@
+ 		}
+-		if (event.count == -1) {
++		if (event.count != -1) {
+ 			AccessibleControlEvent e = new AccessibleControlEvent(this);

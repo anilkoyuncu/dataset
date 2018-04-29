@@ -1,0 +1,6 @@
+c91779
+@@ -146,3 +146,3 @@
+ 			if (match.indexOf("*") < 0 & match.indexOf("?") < 0 & match.indexOf(".") < 0) { //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
+-				match = "*." + match; //$NON-NLS-1$
++				match = "*" + match; //$NON-NLS-1$
+ 			}

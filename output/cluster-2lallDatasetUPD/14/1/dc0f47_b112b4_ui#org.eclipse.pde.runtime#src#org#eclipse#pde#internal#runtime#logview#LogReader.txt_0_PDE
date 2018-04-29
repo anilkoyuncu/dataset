@@ -1,0 +1,6 @@
+b112b4
+@@ -167,3 +167,3 @@
+ 	
+-	public static void addEntry(LogEntry current, ArrayList entries, IMemento memento, boolean useCurrentSession) {
++	public synchronized static void addEntry(LogEntry current, ArrayList entries, IMemento memento, boolean useCurrentSession) {
+ 		int severity = current.getSeverity();

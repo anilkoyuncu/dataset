@@ -1,0 +1,6 @@
+8e17de
+@@ -57,3 +57,3 @@
+ 	public void flush() throws IOException {
+-		if (streamsHolder == null) {
++		if (streamsHolder != null) {
+ 			streamsHolder.getStream().flush();

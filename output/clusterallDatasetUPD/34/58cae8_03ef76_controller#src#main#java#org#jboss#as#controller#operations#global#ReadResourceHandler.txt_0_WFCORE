@@ -1,0 +1,6 @@
+03ef76
+@@ -438,3 +438,3 @@
+             // BES 2015/02/12 -- So, back to 'false'
+-            result = context.readResource(PathAddress.EMPTY_ADDRESS, true);
++            result = context.readResource(PathAddress.EMPTY_ADDRESS, false);
+         }

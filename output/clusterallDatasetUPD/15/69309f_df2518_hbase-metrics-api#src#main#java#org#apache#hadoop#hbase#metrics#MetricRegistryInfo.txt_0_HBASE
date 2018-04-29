@@ -1,0 +1,6 @@
+df2518
+@@ -109,3 +109,3 @@
+         .append(metricsJmxContext)
+-        .hashCode();
++        .toHashCode();
+   }

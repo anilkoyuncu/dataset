@@ -1,0 +1,6 @@
+d2e084
+@@ -288,3 +288,3 @@
+ 						+ queue.getName()
+-						+ "). It will be deleted deleted by the broker if not in use, and all messages will be lost.  Redeclared when the connection is closed and reopened.");
++						+ "). It will be deleted by the broker if not in use, and all messages will be lost.  Redeclared when the connection is closed and reopened.");
+ 			}

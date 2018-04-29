@@ -1,0 +1,6 @@
+7e394d
+@@ -309,3 +309,3 @@
+       log("Waiting for [" + serverName + "] to be listed as dead in master");
+-      Thread.sleep(100);
++      Thread.sleep(1);
+     }

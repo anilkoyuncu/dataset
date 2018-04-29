@@ -1,0 +1,6 @@
+9b80a5
+@@ -1297,3 +1297,3 @@
+       method.setAccessible(true);
+-      ctor = clazz.getConstructor(Subject.class);
++      ctor = clazz.getDeclaredConstructor(Subject.class);
+       ctor.setAccessible(true);

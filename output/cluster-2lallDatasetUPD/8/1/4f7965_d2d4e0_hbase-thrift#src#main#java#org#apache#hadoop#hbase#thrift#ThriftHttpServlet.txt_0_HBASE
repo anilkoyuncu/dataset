@@ -1,0 +1,6 @@
+d2d4e0
+@@ -97,3 +97,3 @@
+       try {
+-        ProxyUsers.authorize(ugi, request.getRemoteAddr());
++        ProxyUsers.authorize(ugi, request.getRemoteAddr(), conf);
+       } catch (AuthorizationException e) {

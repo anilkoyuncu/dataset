@@ -1,0 +1,10 @@
+884d25
+@@ -351,6 +351,6 @@
+       LOG.warn("Failed to create " + znode +
+-        " -- check quorum servers, currenty=" + this.quorumServers, e);
++        " -- check quorum servers, currently=" + this.quorumServers, e);
+     } catch (InterruptedException e) {
+       LOG.warn("Failed to create " + znode +
+-        " -- check quorum servers, currenty=" + this.quorumServers, e);
++        " -- check quorum servers, currently=" + this.quorumServers, e);
+     }

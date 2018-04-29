@@ -1,0 +1,6 @@
+f482cf
+@@ -136,3 +136,3 @@
+     try {
+-      waitForCounter(SplitLogCounters.tot_wkr_task_acquired, 0, 1, 100);
++      waitForCounter(SplitLogCounters.tot_wkr_task_acquired, 0, 1, 1000);
+       byte [] bytes = ZKUtil.getData(zkw, ZKSplitLog.getEncodedNodeName(zkw, TATAS));

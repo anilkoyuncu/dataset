@@ -1,0 +1,6 @@
+0d95dc
+@@ -29,3 +29,3 @@
+ @Category(LargeTests.class)
+-public class TestReplicationQueueFailoverCompressed extends TestReplicationBase {
++public class TestReplicationQueueFailoverCompressed extends TestReplicationQueueFailover {
+ 

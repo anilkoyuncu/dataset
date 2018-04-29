@@ -1,0 +1,6 @@
+a543d0
+@@ -58,3 +58,3 @@
+      */
+-    protected int maxCodeLen = 4;
++    private int maxCodeLen = 4;
+ 

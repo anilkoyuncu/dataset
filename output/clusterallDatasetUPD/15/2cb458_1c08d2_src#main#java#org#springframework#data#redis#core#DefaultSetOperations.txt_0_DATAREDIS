@@ -1,0 +1,6 @@
+1c08d2
+@@ -166,3 +166,3 @@
+ 			protected byte[] inRedis(byte[] rawKey, RedisConnection connection) {
+-				return connection.randomKey();
++				return connection.sRandMember(rawKey);
+ 			}

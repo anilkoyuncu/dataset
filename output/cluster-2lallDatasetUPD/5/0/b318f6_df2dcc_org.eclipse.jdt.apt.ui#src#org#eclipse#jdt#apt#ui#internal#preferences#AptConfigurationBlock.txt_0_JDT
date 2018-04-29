@@ -1,0 +1,6 @@
+df2dcc
+@@ -215,3 +215,3 @@
+ 		fProcessorOptionsField.setTableColumns(new ListDialogField.ColumnsDescription(columnHeaders, true));
+-		fProcessorOptionsField.setViewerSorter(new ProcessorOptionSorter());
++		fProcessorOptionsField.setViewerComparator(new ProcessorOptionSorter());
+ 		fProcessorOptionsField.setLabelText(Messages.AptConfigurationBlock_options);

@@ -1,0 +1,6 @@
+0f1780
+@@ -67,3 +67,3 @@
+     private static final PathAddress DEPLOYMENT_TWO = PathAddress.pathAddress(DEPLOYMENT, JAR_TWO);
+-    private static final int TIMEOUT = 3000;
++    private static final int TIMEOUT = 30000;
+     private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("uuuu-MM-dd HH:mm:ss,SSS");

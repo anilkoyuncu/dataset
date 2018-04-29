@@ -1,0 +1,6 @@
+92c98a
+@@ -53,3 +53,3 @@
+           ServiceAuthorizationManager.SERVICE_AUTHORIZATION_CONFIG, false)) {
+-      ServiceAuthorizationManager.refresh(conf, new HBasePolicyProvider());
++      authManager.refresh(conf, new HBasePolicyProvider());
+     }

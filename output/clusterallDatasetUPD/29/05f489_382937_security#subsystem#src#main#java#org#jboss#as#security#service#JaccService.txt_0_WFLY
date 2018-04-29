@@ -1,0 +1,6 @@
+382937
+@@ -115,3 +115,3 @@
+         if (module != null) {
+-            jaccClassLoader = SecurityActions.getModuleClassLoader(JACC_MODULE);
++            jaccClassLoader = SecurityActions.getModuleClassLoader(module);
+             originalClassLoader = SecurityActions.setThreadContextClassLoader(jaccClassLoader);

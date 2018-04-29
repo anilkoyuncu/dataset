@@ -1,0 +1,6 @@
+f4460d
+@@ -420,3 +420,3 @@
+ 		else {
+-			throw new DataIntegrityViolationException("Unable to retreive the generated key for the insert: " +
++			throw new DataIntegrityViolationException("Unable to retrieve the generated key for the insert: " +
+ 					getInsertString());

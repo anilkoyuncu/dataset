@@ -1,0 +1,6 @@
+72b879
+@@ -61,3 +61,3 @@
+         LOG.debug("Moving " + regionInfo.getRegionNameAsString() + " to " + destServerName);
+-        admin.move(regionInfo.getRegionName(), Bytes.toBytes(destServerName));
++        admin.move(regionInfo.getEncodedNameAsBytes(), Bytes.toBytes(destServerName));
+       } catch (Exception e) {

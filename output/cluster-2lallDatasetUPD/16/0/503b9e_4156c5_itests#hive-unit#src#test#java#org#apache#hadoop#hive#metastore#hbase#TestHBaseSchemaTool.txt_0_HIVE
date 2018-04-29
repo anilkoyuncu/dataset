@@ -1,0 +1,6 @@
+4156c5
+@@ -579,3 +579,3 @@
+     tool.go(false, HBaseReadWrite.SEQUENCES_TABLE, null, "whatever", conf, out, err);
+-    Assert.assertEquals("cv_PERMANENT_FUNCTION: 3\nmaster_key: 1" + lsep, outStr.toString());
++    Assert.assertEquals("master_key: 1" + lsep, outStr.toString());
+   }

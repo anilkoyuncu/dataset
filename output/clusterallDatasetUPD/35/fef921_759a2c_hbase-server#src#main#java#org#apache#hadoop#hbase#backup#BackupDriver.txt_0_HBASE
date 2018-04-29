@@ -1,0 +1,8 @@
+759a2c
+@@ -114,4 +114,4 @@
+       command.execute();
+-    } catch(IOException e) {
+-      if(e.getMessage().equals(BackupCommands.IGNORE)){
++    } catch (IOException e) {
++      if (e.getMessage().equals(BackupCommands.INCORRECT_USAGE)){
+         return -1;

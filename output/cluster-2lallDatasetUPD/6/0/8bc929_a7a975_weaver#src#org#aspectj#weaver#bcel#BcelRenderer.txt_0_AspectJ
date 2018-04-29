@@ -1,0 +1,6 @@
+a7a975
+@@ -47,3 +47,3 @@
+ // we generate right to left, btw.
+-public class BcelRenderer implements ITestVisitor, IExprVisitor {
++public final class BcelRenderer implements ITestVisitor, IExprVisitor {
+ 

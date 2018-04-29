@@ -1,0 +1,8 @@
+7083f4
+@@ -44,4 +44,4 @@
+ 
+-  private transient Type type;
+-  private transient int bytesValueLength = 0;
++  private Type type;
++  private int bytesValueLength = 0;
+ 

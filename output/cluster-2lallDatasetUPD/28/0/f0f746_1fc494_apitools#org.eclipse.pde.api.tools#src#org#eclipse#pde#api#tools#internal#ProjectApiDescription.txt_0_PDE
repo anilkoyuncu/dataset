@@ -1,0 +1,6 @@
+1fc494
+@@ -358,3 +358,3 @@
+ 							for (IJavaElement element : children) {
+-								if (monitor.isCanceled()) {
++								if (monitor != null && monitor.isCanceled()) {
+ 									throw new OperationCanceledException();

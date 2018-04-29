@@ -1,0 +1,6 @@
+ce5883
+@@ -1675,3 +1675,3 @@
+         LOG.info("Region " + descriptiveName
+-            + " got merge recently, its file will be cleaned by CatalogJanitor later");
++            + " got merge recently, its file(s) will be cleaned by CatalogJanitor later");
+         return;

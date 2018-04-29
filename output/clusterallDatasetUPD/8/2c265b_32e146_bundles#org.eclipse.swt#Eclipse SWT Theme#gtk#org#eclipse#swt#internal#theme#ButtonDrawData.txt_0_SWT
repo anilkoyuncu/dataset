@@ -1,0 +1,13 @@
+32e146
+@@ -235,8 +235,8 @@
+ 	if (OS.GTK_VERSION >= OS.VERSION(3, 0, 0)) {
+-		long /*int*/ cairo = OS.gdk_cairo_create(window);
++		long /*int*/ cairo = OS.gdk_cairo_create (window);
+ 		long /*int*/ context = OS.gtk_widget_get_style_context (style);
+-		OS.gtk_render_check(context, cairo, context, y, width, height);
++		OS.gtk_render_check (context, cairo, x, y, width, height);
+ 		Cairo.cairo_destroy (cairo);
+ 	} else {
+-		OS.gtk_paint_check(style, window, state_type, shadow_type, null, widget, detail, x, y, width, height);
++		OS.gtk_paint_check (style, window, state_type, shadow_type, null, widget, detail, x, y, width, height);
+ 	}

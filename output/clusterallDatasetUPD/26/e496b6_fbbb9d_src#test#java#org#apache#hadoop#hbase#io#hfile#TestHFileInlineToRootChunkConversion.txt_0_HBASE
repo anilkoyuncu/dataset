@@ -1,0 +1,5 @@
+fbbb9d
+@@ -40,2 +40,3 @@
+  */
++@Category(SmallTests.class)
+ public class TestHFileInlineToRootChunkConversion {

@@ -1,0 +1,6 @@
+7cd148
+@@ -37,3 +37,3 @@
+ 			IPluginModelBase model = (IPluginModelBase) page.getModel();
+-			if (model.isValid()) {
++			if (model != null && model.isValid()) {
+ 				IPluginBase pluginBase = model.getPluginBase();

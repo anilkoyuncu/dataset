@@ -1,0 +1,6 @@
+637da9
+@@ -281,3 +281,3 @@
+     configs.put(HiveConf.ConfVars.LLAP_IO_MEMORY_MAX_SIZE.varname,
+-        HiveConf.getLongVar(conf, HiveConf.ConfVars.LLAP_IO_MEMORY_MAX_SIZE));
++        HiveConf.getSizeVar(conf, HiveConf.ConfVars.LLAP_IO_MEMORY_MAX_SIZE));
+ 

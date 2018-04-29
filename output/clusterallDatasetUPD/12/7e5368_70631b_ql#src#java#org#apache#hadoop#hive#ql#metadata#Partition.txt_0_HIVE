@@ -1,0 +1,6 @@
+70631b
+@@ -285,3 +285,3 @@
+     tPartition.getSd().setOutputFormat(HiveFileFormatUtils
+-        .getOutputFormatSubstitute(outputFormatClass).toString());
++        .getOutputFormatSubstitute(outputFormatClass).getName());
+   }

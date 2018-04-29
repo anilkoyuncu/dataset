@@ -1,0 +1,10 @@
+9e3eac2
+@@ -127,7 +127,7 @@ public class DocumentMK {
+     }
+ 
+     void backgroundRead() {
+-        nodeStore.backgroundRead(true);
++        nodeStore.backgroundRead();
+     }
+ 
+     void backgroundWrite() {

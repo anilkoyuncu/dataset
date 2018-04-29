@@ -1,0 +1,6 @@
+e7988b
+@@ -155,3 +155,3 @@
+ 		ProfileChangeRequest request = new ProfileChangeRequest(profile);
+-		request.addInstallableUnits(fUnits);
++		request.addInstallableUnits(units);
+ 		IPlanner planner = getPlanner();

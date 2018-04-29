@@ -1,0 +1,6 @@
+8dc752
+@@ -508,3 +508,3 @@
+     }
+-    System.out.println("schemaTool completeted");
++    System.out.println("schemaTool completed");
+ 

@@ -1,0 +1,13 @@
+e89563
+@@ -187,7 +187,8 @@
+ 	private static class ExecutingRunnable implements Runnable, ResultHolder {
+-		private volatile RepeatCallback callback;
++		
++		private final RepeatCallback callback;
+ 
+-		private volatile RepeatContext context;
++		private final RepeatContext context;
+ 
+-		private volatile ResultQueue<ResultHolder> queue;
++		private final ResultQueue<ResultHolder> queue;
+ 

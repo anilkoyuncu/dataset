@@ -1,0 +1,6 @@
+d6163d
+@@ -23,3 +23,3 @@
+ public class Browser5 {
+-	public static boolean verbose = true;
++	public static boolean verbose = false;
+ 	public static boolean passed = false;

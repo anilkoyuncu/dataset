@@ -1,0 +1,8 @@
+1a227d
+@@ -61,4 +61,4 @@
+ 			int lastPathSeparator = systemId.lastIndexOf("/");
+-			int dtdNameStart = systemId.indexOf(DTD_NAME);
+-			if (dtdNameStart > lastPathSeparator) {
++			int dtdNameStart = systemId.indexOf(DTD_NAME, lastPathSeparator);
++			if (dtdNameStart != -1) {
+ 				String dtdFile = DTD_FILENAME + DTD_EXTENSION;

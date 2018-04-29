@@ -1,0 +1,6 @@
+688d6f
+@@ -486,3 +486,3 @@
+ 			target.resolve(monitor);
+-			if (monitor.isCanceled()) {
++			if (monitor != null && monitor.isCanceled()) {
+ 				return null;

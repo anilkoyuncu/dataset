@@ -1,0 +1,6 @@
+eaf8df
+@@ -76,3 +76,3 @@
+ 		if (bundle == null) {
+-			throw new IllegalArgumentException("Bundle \"" + bundleId + "\" not found. This often indicates missing dependencies."); //$NON-NLS-1$ //$NON-NLS-2$
++			throw new IllegalArgumentException("Bundle \"" + bundleId + "\" not found. Possible causes include missing dependencies, too restrictive version ranges, or a non-matching required execution environment."); //$NON-NLS-1$ //$NON-NLS-2$
+ 		}

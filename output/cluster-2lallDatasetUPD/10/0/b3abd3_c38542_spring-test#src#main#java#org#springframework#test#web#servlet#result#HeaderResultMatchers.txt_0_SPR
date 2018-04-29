@@ -1,0 +1,6 @@
+c38542
+@@ -91,3 +91,3 @@
+ 			public void match(MvcResult result) {
+-				assertEquals("Response header " + name, result.getResponse().getHeader(name), value);
++				assertEquals("Response header " + name, value, result.getResponse().getHeader(name));
+ 			}

@@ -1,0 +1,8 @@
+2974a5
+@@ -49,4 +49,4 @@
+ 		
+-		String interfaceIdentifier = typeLocationService.getPhysicalLocationCanonicalPath(interfaceType, Path.SRC_MAIN_JAVA);
+-		String classIdentifier = typeLocationService.getPhysicalLocationCanonicalPath(classType, Path.SRC_MAIN_JAVA);
++		String interfaceIdentifier = typeLocationService.getPhysicalTypeCanonicalPath(interfaceType, Path.SRC_MAIN_JAVA);
++		String classIdentifier = typeLocationService.getPhysicalTypeCanonicalPath(classType, Path.SRC_MAIN_JAVA);
+ 		

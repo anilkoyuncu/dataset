@@ -1,0 +1,6 @@
+9f96d9
+@@ -331,3 +331,3 @@
+       if (lastHost != null && newState != State.SPLIT) {
+-        addToServerHoldings(serverName, hri);
++        addToServerHoldings(lastHost, hri);
+       }

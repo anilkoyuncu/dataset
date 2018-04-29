@@ -1,0 +1,6 @@
+2f5d37
+@@ -362,3 +362,3 @@
+ 			Class<?> fbSubclass = enhancer.createClass();
+-			Enhancer.registerCallbacks(fbSubclass, callbackInstances);
++			Enhancer.registerStaticCallbacks(fbSubclass, callbackInstances);
+ 			return fbSubclass.newInstance();

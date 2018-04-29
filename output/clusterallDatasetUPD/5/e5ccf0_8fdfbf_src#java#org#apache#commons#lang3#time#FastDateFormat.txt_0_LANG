@@ -1,0 +1,6 @@
+8fdfbf
+@@ -871,3 +871,3 @@
+         if (mTimeZoneForced) {
+-            calendar.getTime(); /// LANG-538
++            calendar.getTimeInMillis(); /// LANG-538
+             calendar = (Calendar) calendar.clone();

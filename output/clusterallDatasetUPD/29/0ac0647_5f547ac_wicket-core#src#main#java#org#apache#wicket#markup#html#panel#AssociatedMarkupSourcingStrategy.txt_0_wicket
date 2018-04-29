@@ -1,0 +1,10 @@
+5f547ac
+@@ -120,7 +120,7 @@ public abstract class AssociatedMarkupSourcingStrategy extends AbstractMarkupSou
+ 			return associatedMarkup;
+ 		}
+ 
+-		associatedMarkup = searchMarkupInTransparentResolvers(parent, child);
++		associatedMarkup = searchMarkupInTransparentResolvers(parent, markup, child);
+ 		if (associatedMarkup != null)
+ 		{
+ 			return associatedMarkup;

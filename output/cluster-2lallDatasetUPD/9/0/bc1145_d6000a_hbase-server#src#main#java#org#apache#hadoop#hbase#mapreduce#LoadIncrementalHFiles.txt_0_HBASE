@@ -1,0 +1,6 @@
+d6000a
+@@ -337,3 +337,3 @@
+     if (!admin.isTableAvailable(regionLocator.getName())) {
+-      throw new TableNotFoundException("Table " + table.getName() + "is not currently available.");
++      throw new TableNotFoundException("Table " + table.getName() + " is not currently available.");
+     }

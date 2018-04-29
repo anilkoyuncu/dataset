@@ -1,0 +1,6 @@
+f9b17b
+@@ -92,3 +92,3 @@
+   public static final String TNAME = "tableName";
+-  public static final String CFNAME = "columnFamlyName";
++  public static final String CFNAME = "columnFamilyName";
+ 

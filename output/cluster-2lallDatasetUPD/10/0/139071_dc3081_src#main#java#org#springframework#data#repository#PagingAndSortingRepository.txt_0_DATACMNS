@@ -1,0 +1,6 @@
+dc3081
+@@ -47,3 +47,3 @@
+ 	 */
+-	<S extends Sort> Page<T> findAll(Pageable pageable);
++	Page<T> findAll(Pageable pageable);
+ }

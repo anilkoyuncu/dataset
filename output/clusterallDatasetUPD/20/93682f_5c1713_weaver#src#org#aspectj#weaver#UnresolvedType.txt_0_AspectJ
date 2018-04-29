@@ -1,0 +1,6 @@
+5c1713
+@@ -96,3 +96,3 @@
+  */
+-public class UnresolvedType implements Unresolved, Traceable, TypeVariableDeclaringElement {
++public class UnresolvedType implements Traceable, TypeVariableDeclaringElement {
+ 

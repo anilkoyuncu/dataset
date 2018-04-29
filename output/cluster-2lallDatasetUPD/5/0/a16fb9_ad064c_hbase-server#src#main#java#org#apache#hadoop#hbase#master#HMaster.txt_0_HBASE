@@ -1,0 +1,6 @@
+ad064c
+@@ -3275,3 +3275,3 @@
+       TableName dstTable = TableName.valueOf(request.getSnapshot().getTable());
+-      getNamespaceDescriptor(dstTable.getNamespaceAsString());
++      ensureNamespaceExists(dstTable.getNamespaceAsString());
+     } catch (IOException ioe) {

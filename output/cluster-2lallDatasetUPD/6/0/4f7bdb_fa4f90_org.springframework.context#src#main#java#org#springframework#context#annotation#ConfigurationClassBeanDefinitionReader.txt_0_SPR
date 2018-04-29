@@ -1,0 +1,6 @@
+fa4f90
+@@ -75,3 +75,3 @@
+  */
+-class ConfigurationClassBeanDefinitionReader {
++public class ConfigurationClassBeanDefinitionReader {
+ 

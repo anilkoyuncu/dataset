@@ -1,0 +1,6 @@
+7ee8fb
+@@ -587,3 +587,3 @@
+             return new HttpScope() {
+-                private HttpSession session = context.getOriginalRequest().getSession();
++                private HttpSession session = context.getOriginalRequest().getSession(false);
+ 

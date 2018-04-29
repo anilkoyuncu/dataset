@@ -1,0 +1,6 @@
+c987bc
+@@ -188,3 +188,3 @@
+                                             Constructor<? extends Provider> constructor = doPrivileged((PrivilegedExceptionAction<Constructor<? extends Provider>>) () ->  providerClazz.getConstructor(InputStream.class));
+-                                            constructor.newInstance(new Object[] { configSupplier.get() });
++                                            loadedProviders.add(constructor.newInstance(new Object[] { configSupplier.get() }));
+                                         } catch (NoSuchMethodException ignored) {

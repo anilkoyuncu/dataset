@@ -1,0 +1,6 @@
+ffc9f4
+@@ -1904,3 +1904,3 @@
+ 		GtkAllocation allocation = new GtkAllocation ();
+-		OS.gtk_widget_get_allocation (shellHandle, allocation);
++		gtk_widget_get_allocation (shellHandle, allocation);
+ 		width = allocation.width;

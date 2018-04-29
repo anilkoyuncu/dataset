@@ -1,0 +1,6 @@
+7433d3
+@@ -1744,3 +1744,3 @@
+               defineSlot(astParameter, functionNode,
+-                  jsDocParameter.getJSType(), true);
++                  jsDocParameter.getJSType(), false);
+               jsDocParameter = jsDocParameter.getNext();

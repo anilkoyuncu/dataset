@@ -1,0 +1,6 @@
+05cd5d
+@@ -1524,3 +1524,3 @@
+ 	checkWidget();
+-	if (listener == null) SWT.error(SWT.ERROR_NULL_ARGUMENT);
++	if (movementListener == null) SWT.error(SWT.ERROR_NULL_ARGUMENT);
+ 	addListener(WordNext, new StyledTextListener(movementListener));

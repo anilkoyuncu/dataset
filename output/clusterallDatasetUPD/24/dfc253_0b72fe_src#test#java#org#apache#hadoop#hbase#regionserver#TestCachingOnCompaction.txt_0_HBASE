@@ -1,0 +1,6 @@
+0b72fe
+@@ -195,3 +195,3 @@
+ 
+-    ht.getConnection().getHTableDescriptor(TABLE).addFamily(col);
++    ht.getConnectionAndResetOperationContext().getHTableDescriptor(TABLE).addFamily(col);
+ 

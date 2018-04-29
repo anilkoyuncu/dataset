@@ -1,0 +1,11 @@
+2a5b6b
+@@ -110,6 +110,6 @@
+             + ") found in the restore target, please add "
+-            + "\"-overwrite\" option in the command if you mean"
++            + "\"-o\" as overwrite option in the command if you mean"
+             + " to restore to these existing tables");
+-        throw new IOException("Existing table found in target while no \"-overwrite\" "
+-            + "option found");
++        throw new IOException("Existing table found in target while no \"-o\" "
++            + "as overwrite option found");
+       } else {

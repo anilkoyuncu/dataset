@@ -1,0 +1,6 @@
+289e53
+@@ -25,3 +25,3 @@
+     public UndertowPackageDetector() {
+-        anyPackageOf("javax.servlet", "javax.websocket", "io.undertow");
++        anyPackageOf("javax.servlet", "javax.websocket", "io.undertow", "com.vaadin");
+     }

@@ -1,0 +1,10 @@
+dc8344
+@@ -66,6 +66,6 @@
+ 	 * (non-Javadoc)
+-	 * @see org.springframework.data.repository.config14.RepositoryConfigurationExtension#getRepositoryInterface()
++	 * @see org.springframework.data.repository.config14.RepositoryConfigurationExtension#getRepositoryFactoryBeanClassName()
+ 	 */
+ 	@Override
+-	public String getRepositoryFactoryClassName() {
++	public String getRepositoryFactoryBeanClassName() {
+ 		return Neo4jRepositoryFactoryBean.class.getName();

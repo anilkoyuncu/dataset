@@ -1,0 +1,6 @@
+c49ee1
+@@ -437,3 +437,3 @@
+ 			containerElement.setAttribute(ATTR_ID, ((FeatureBundleContainer) container).getFeatureId());
+-			String version = ((FeatureBundleContainer) container).getFeatureId();
++			String version = ((FeatureBundleContainer) container).getFeatureVersion();
+ 			if (version != null) {

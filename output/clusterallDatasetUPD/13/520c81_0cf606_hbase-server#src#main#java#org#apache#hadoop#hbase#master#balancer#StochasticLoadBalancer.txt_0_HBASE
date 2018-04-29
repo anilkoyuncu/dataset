@@ -1,0 +1,6 @@
+0cf606
+@@ -998,3 +998,3 @@
+         "hbase.master.balancer.stochastic.maxMovePercent";
+-    private static final float DEFAULT_MOVE_COST = 100;
++    private static final float DEFAULT_MOVE_COST = 7;
+     private static final int DEFAULT_MAX_MOVES = 600;

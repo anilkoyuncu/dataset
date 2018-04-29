@@ -1,0 +1,6 @@
+4e9537
+@@ -83,3 +83,3 @@
+ 	public ExchangeResult claimRequest(String requestId) {
+-		ExchangeResult result = this.exchanges.get(requestId);
++		ExchangeResult result = this.exchanges.remove(requestId);
+ 		Assert.notNull(result, "No match for " + WebTestClient.WEBTESTCLIENT_REQUEST_ID + "=" + requestId);

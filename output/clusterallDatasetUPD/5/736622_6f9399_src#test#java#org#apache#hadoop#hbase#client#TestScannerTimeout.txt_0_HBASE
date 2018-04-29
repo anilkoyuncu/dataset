@@ -1,0 +1,6 @@
+6f9399
+@@ -86,3 +86,3 @@
+   public void setUp() throws Exception {
+-    TEST_UTIL.ensureSomeRegionServersAvailable(2);
++    TEST_UTIL.ensureSomeNonStoppedRegionServersAvailable(2);
+   }

@@ -1,0 +1,6 @@
+68e916
+@@ -30,3 +30,3 @@
+ 	private static String lastMessage;
+-	private static boolean includeThreadName = true;
++	private static boolean includeThreadName = false;
+ 	private boolean ansiSupported;

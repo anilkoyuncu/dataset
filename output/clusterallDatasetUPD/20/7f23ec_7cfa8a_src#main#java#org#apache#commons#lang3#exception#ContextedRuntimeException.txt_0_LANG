@@ -1,0 +1,6 @@
+7cfa8a
+@@ -69,3 +69,3 @@
+  */
+-public class ContextedRuntimeException extends Exception implements ExceptionContext {
++public class ContextedRuntimeException extends RuntimeException implements ExceptionContext {
+ 

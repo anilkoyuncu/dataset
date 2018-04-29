@@ -1,0 +1,6 @@
+15c438
+@@ -162,3 +162,3 @@
+     for (Map.Entry<ServerName, ServerLoad> e: this.liveServers.entrySet()) {
+-      count += e.getValue().getTotalNumberOfRequests();
++      count += e.getValue().getNumberOfRequests();
+     }

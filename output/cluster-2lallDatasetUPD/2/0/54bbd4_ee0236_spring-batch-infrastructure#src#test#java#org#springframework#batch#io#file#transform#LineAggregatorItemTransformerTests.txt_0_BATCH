@@ -1,0 +1,8 @@
+ee0236
+@@ -59,4 +59,4 @@
+ 			transformer.transform("foo");
+-			fail("Expected ClassCastException");
+-		} catch (ClassCastException e) {
++			fail("Expected ConversionException");
++		} catch (ConversionException e) {
+ 			// Expected

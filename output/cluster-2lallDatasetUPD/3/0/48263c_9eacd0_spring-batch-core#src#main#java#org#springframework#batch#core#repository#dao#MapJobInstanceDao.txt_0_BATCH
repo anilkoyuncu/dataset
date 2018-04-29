@@ -1,0 +1,6 @@
+9eacd0
+@@ -18,3 +18,3 @@
+ 
+-	private long currentId = 0;
++	private static long currentId = 0;
+ 

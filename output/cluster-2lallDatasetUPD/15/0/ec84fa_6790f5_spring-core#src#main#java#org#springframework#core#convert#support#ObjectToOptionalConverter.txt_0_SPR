@@ -1,0 +1,6 @@
+6790f5
+@@ -71,3 +71,3 @@
+ 			Object target = this.conversionService.convert(source, sourceType, new GenericTypeDescriptor(targetType));
+-			return Optional.of(target);
++			return Optional.ofNullable(target);
+ 		}

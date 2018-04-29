@@ -1,0 +1,7 @@
+be559f
+@@ -54,3 +54,4 @@
+   // Used to signal to the caller that the region(s) cannot be assigned
+-  ServerName BOGUS_SERVER_NAME = ServerName.valueOf("bogus.example.com,1,1");
++  // We deliberately use 'localhost' so the operation will fail fast
++  ServerName BOGUS_SERVER_NAME = ServerName.valueOf("localhost,1,1");
+ 

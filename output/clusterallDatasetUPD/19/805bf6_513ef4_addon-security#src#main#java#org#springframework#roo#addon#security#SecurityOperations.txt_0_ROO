@@ -1,0 +1,6 @@
+513ef4
+@@ -100,3 +100,3 @@
+ 
+-		Element paramValue = XmlUtils.findRequiredElement("/web-app/context-param[param-value='classpath:applicationContext.xml']/param-value", root);
++		Element paramValue = XmlUtils.findRequiredElement("/web-app/context-param[param-value='classpath:applicationContext*.xml']/param-value", root);
+ 		String currentContent = paramValue.getTextContent();

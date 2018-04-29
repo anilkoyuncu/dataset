@@ -1,0 +1,6 @@
+374b46
+@@ -53,3 +53,3 @@
+    */
+-  public Instance retrieve(SeedObject hv,
++  public synchronized Instance retrieve(SeedObject hv,
+       Set<SeedObject> seenSchemas) throws AvroSerdeException {

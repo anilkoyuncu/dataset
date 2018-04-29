@@ -1,0 +1,7 @@
+de5e32
+@@ -1109,3 +1109,4 @@
+ 			bodyBuilder.indentRemove();
+-			bodyBuilder.appendFormalLine("} catch (javax.persistence.NoResultException e) {");
++			// Catch the Spring exception thrown by JpaExceptionTranslatorAspect
++			bodyBuilder.appendFormalLine("} catch (org.springframework.dao.EmptyResultDataAccessException e) {");
+ 			bodyBuilder.indent();

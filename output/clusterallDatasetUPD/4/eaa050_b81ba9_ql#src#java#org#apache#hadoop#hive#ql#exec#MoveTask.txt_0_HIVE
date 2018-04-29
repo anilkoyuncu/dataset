@@ -1,0 +1,6 @@
+b81ba9
+@@ -147,3 +147,3 @@
+     Path mkDirPath = targetPath.getParent();
+-    if (mkDirPath != null & !fs.exists(mkDirPath)) {
++    if (mkDirPath != null && !fs.exists(mkDirPath)) {
+       Path actualPath = mkDirPath;

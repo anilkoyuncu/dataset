@@ -1,0 +1,8 @@
+8cee70
+@@ -1529,4 +1529,4 @@
+     long memstoreSize = 0;
+-    int readRequestsCount = 0;
+-    int writeRequestsCount = 0;
++    long readRequestsCount = 0;
++    long writeRequestsCount = 0;
+     long storefileIndexSize = 0;

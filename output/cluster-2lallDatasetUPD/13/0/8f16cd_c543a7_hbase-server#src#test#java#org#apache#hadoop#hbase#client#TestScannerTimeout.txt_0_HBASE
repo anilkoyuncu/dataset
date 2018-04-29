@@ -1,0 +1,6 @@
+c543a7
+@@ -54,3 +54,3 @@
+   private final static int THREAD_WAKE_FREQUENCY = 1000;
+-  private final static int SCANNER_TIMEOUT = 10000;
++  private final static int SCANNER_TIMEOUT = 15000;
+   private final static int SCANNER_CACHING = 5;

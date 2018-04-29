@@ -1,0 +1,6 @@
+4ac898
+@@ -518,3 +518,3 @@
+         MetaScanner.metaScan(conf, connection, visitor, desc.getTableName());
+-        if (actualRegCount.get() != numRegs) {
++        if (actualRegCount.get() < numRegs) {
+           if (tries == this.numRetries * this.retryLongerMultiplier - 1) {

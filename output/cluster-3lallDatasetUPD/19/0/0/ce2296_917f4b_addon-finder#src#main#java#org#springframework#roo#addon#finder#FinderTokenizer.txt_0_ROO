@@ -1,0 +1,6 @@
+917f4b
+@@ -98,3 +98,3 @@
+ 			// Compile pattern and prepare input
+-			Pattern pattern = Pattern.compile("[A-Z][a-z | 0-9]+");
++			Pattern pattern = Pattern.compile("[A-Z][a-z|0-9|_]+");
+ 			matcher = pattern.matcher(finder);

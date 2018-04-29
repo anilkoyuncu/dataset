@@ -1,0 +1,6 @@
+f61b52
+@@ -156,3 +156,3 @@
+         final String newNameArgKey = "--new.name=";
+-        if (cmd.startsWith(rsClassArgKey)) {
++        if (cmd.startsWith(newNameArgKey)) {
+           newTableName = cmd.substring(newNameArgKey.length());

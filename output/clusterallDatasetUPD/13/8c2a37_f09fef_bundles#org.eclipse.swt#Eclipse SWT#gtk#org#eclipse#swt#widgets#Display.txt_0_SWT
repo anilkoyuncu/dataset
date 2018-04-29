@@ -1,0 +1,6 @@
+f09fef
+@@ -424,3 +424,3 @@
+ 	static final int MAJOR = 2;
+-	static final int MINOR = 2;
++	static final int MINOR = 6;
+ 	static final int MICRO = 0;

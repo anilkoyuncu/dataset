@@ -1,0 +1,6 @@
+fcc2dd
+@@ -79,3 +79,3 @@
+     protected void unregisterListener(AbstractListenerService<?> listener) {
+-        listeners.add(listener);
++        listeners.remove(listener);
+         if (listener.isSecure()) {

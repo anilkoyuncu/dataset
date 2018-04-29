@@ -1,0 +1,6 @@
+011e77
+@@ -180,3 +180,3 @@
+                 try {
+-                    Thread.sleep(50);
++                    Thread.sleep(200);
+                 } catch(InterruptedException ie) {

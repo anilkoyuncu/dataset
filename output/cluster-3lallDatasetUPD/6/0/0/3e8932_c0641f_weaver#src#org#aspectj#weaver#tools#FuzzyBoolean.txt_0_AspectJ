@@ -1,0 +1,6 @@
+c0641f
+@@ -17,3 +17,3 @@
+  */
+-public class FuzzyBoolean {
++public final class FuzzyBoolean {
+ 	

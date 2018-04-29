@@ -1,0 +1,9 @@
+930fe8
+@@ -1893,5 +1893,5 @@
+         KeyValue lastKey = KeyValue.createKeyValueFromKey(lk, 0, lk.length);
+-        // if the midkey is the same as the first and last keys, then we cannot
++        // if the midkey is the same as the first or last keys, then we cannot
+         // (ever) split this region.
+-        if (this.comparator.compareRows(mk, firstKey) == 0 &&
++        if (this.comparator.compareRows(mk, firstKey) == 0 ||
+             this.comparator.compareRows(mk, lastKey) == 0) {

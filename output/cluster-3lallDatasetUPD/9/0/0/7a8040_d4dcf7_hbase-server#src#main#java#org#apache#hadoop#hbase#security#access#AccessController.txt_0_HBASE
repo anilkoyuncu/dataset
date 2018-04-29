@@ -1,0 +1,6 @@
+d4dcf7
+@@ -2410,3 +2410,3 @@
+       throw new AccessDeniedException("User '" + (activeUser != null ?
+-        activeUser.getShortName() : "null") + "is not system or super user.");
++        activeUser.getShortName() : "null") + "' is not system or super user.");
+     }

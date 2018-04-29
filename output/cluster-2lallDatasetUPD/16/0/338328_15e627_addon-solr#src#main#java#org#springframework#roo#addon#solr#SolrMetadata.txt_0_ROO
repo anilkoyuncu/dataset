@@ -1,0 +1,6 @@
+15e627
+@@ -217,3 +217,3 @@
+ 		bodyBuilder.appendFormalLine(sid + " sid = new " + sid + "();");
+-		bodyBuilder.appendFormalLine("sid.addField(\"id\", \"" + simpleBeanName + "_\" + " + simpleBeanName + "_" + entityMetadata.getIdentifierAccessor().getMethodName() + "());");
++		bodyBuilder.appendFormalLine("sid.addField(\"id\", \"" + simpleBeanName + "_\" + " + simpleBeanName + "." + entityMetadata.getIdentifierAccessor().getMethodName() + "());");
+ 		StringBuilder textField = new StringBuilder("new StringBuilder()");

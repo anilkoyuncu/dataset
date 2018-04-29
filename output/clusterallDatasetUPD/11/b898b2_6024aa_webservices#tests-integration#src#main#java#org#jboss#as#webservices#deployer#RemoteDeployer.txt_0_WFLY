@@ -1,0 +1,6 @@
+6024aa
+@@ -304,3 +304,3 @@
+             final String verifyClient = "verify-client";
+-            if (options.containsKey(verifyClient)) {
++            if (options != null && options.containsKey(verifyClient)) {
+                 op.get(verifyClient).set(options.get(verifyClient));

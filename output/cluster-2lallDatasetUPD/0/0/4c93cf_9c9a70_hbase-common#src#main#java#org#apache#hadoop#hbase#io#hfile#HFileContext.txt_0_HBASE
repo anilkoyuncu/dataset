@@ -1,0 +1,6 @@
+9c9a70
+@@ -102,3 +102,3 @@
+ 
+-  public void setCompresssion(Compression.Algorithm compressAlgo) {
++  public void setCompression(Compression.Algorithm compressAlgo) {
+     this.compressAlgo = compressAlgo;

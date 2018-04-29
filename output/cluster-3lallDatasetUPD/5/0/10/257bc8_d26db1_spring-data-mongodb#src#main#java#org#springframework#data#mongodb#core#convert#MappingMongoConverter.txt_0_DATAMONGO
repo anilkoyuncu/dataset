@@ -1,0 +1,6 @@
+d26db1
+@@ -293,3 +293,3 @@
+ 
+-				if (value == null || (entity.isConstructorArgument(property) && accessor.getProperty(property) != null)) {
++				if (value == null || entity.isConstructorArgument(property)) {
+ 					return;

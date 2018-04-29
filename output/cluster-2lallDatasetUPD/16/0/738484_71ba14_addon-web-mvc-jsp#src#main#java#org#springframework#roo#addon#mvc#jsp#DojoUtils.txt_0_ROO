@@ -1,0 +1,6 @@
+71ba14
+@@ -105,3 +105,3 @@
+ 		script.setTextContent("Spring.addDecoration(new Spring.ElementDecoration({elementId : \"_" + fieldName.getSymbolName()
+-				+ "\", widgetType: 'dijit.form.SimpleTextarea'})); ");
++				+ "\", widgetType: 'dijit.form.SimpleTextarea', widgetAttrs: {}})); ");
+ 		return script;

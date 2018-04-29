@@ -1,0 +1,6 @@
+1bb55d
+@@ -3484,3 +3484,3 @@
+             // the WALEdit.
+-            flush |= restoreEdit(store, cell);
++            flush |= restoreEdit(store, kv);
+             editsCount++;

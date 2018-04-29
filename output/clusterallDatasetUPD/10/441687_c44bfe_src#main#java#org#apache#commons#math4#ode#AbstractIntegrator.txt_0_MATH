@@ -1,0 +1,11 @@
+c44bfe
+@@ -294,5 +294,8 @@
+      * @exception DimensionMismatchException if arrays dimensions do not match equations settings
++     * @exception NullPointerException if the ODE equations have not been set (i.e. if this method
++     * is called outside of a call to {@link #integrate(ExpandableStatefulODE, double)} or {@link
++     * #integrate(FirstOrderDifferentialEquations, double, double[], double, double[])})
+      */
+     public void computeDerivatives(final double t, final double[] y, final double[] yDot)
+-        throws MaxCountExceededException, DimensionMismatchException {
++        throws MaxCountExceededException, DimensionMismatchException, NullPointerException {
+         evaluations.incrementCount();

@@ -1,0 +1,8 @@
+1350f0
+@@ -99,4 +99,4 @@
+                     if (description.isPassivationApplicable()) {
+-                        handleClassMethod(clazz, interceptorConfig.getPrePassivate(), componentUserPrePassivate, false, false, configuration);
+-                        handleClassMethod(clazz, interceptorConfig.getPostActivate(), componentUserPostActivate, false, false, configuration);
++                        handleClassMethod(clazz, interceptorConfig.getPrePassivate(), componentUserPrePassivate, false, true, configuration);
++                        handleClassMethod(clazz, interceptorConfig.getPostActivate(), componentUserPostActivate, false, true, configuration);
+                     }

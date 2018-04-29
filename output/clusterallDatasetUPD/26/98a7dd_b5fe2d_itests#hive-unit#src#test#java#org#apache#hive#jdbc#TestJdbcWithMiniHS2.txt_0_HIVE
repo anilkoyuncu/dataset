@@ -1,0 +1,8 @@
+b5fe2d
+@@ -66,4 +66,6 @@
+ import org.junit.BeforeClass;
++import org.junit.Ignore;
+ import org.junit.Test;
+ 
++@Ignore("Disabling test until hanging issue is resolved.")
+ public class TestJdbcWithMiniHS2 {

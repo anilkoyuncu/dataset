@@ -1,0 +1,6 @@
+0dfa20
+@@ -68,3 +68,3 @@
+ 
+-    regionNamePrefix = "namespace_" + regionWrapper.getNamespace() +
++    regionNamePrefix = "Namespace_" + regionWrapper.getNamespace() +
+         "_table_" + regionWrapper.getTableName() +

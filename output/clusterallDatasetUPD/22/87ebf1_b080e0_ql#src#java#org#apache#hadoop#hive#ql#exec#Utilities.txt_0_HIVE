@@ -1,0 +1,6 @@
+b080e0
+@@ -406,3 +406,3 @@
+           LOG.debug("Loading plan from string: "+path.toUri().getPath());
+-          String planString = conf.get(path.toUri().getPath());
++          String planString = conf.getRaw(path.toUri().getPath());
+           if (planString == null) {

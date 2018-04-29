@@ -1,0 +1,6 @@
+7a46b5
+@@ -388,3 +388,3 @@
+         // grant all privileges for table to its owner
+-        getConf().setVar(ConfVars.HIVE_AUTHORIZATION_TABLE_OWNER_GRANTS, "insert,select,update,delete");
++        getConf().setVar(ConfVars.HIVE_AUTHORIZATION_TABLE_OWNER_GRANTS, "INSERT,SELECT,UPDATE,DELETE");
+         String hooks = getConf().getVar(ConfVars.PREEXECHOOKS).trim();

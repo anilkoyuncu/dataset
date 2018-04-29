@@ -1,0 +1,7 @@
+b2f42e
+@@ -26,3 +26,5 @@
+ import org.junit.Test;
++import org.junit.experimental.categories.Category;
+ 
++@Category(SmallTests.class)
+ public class TestRegionLocations {

@@ -1,0 +1,6 @@
+40fb2e
+@@ -292,3 +292,3 @@
+           if (LOG.isTraceEnabled()) {
+-            if (currentPath != null) {
++            if (currentPath == null) {
+               LOG.debug("link open path=" + path);

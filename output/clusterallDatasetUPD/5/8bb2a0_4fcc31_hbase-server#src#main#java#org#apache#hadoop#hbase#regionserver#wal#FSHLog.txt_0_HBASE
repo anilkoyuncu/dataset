@@ -1,0 +1,6 @@
+4fcc31
+@@ -1974,3 +1974,3 @@
+       } catch (Exception e) {
+-        LOG.fatal("Could not append. Requesting close of wal", e);
++        LOG.warn("Could not append. Requesting close of wal", e);
+         requestLogRoll();

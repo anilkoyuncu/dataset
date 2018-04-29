@@ -1,0 +1,6 @@
+71a099
+@@ -213,3 +213,3 @@
+ 		// Add 'list all' menu item
+-		menuOperations.addMenuItem(categoryName, new JavaSymbolName("list"), new JavaSymbolName(getPlural(beanInfoMetadata.getJavaBean())).getReadableSymbolName(), "global_menu_list", "/" + controllerPath + "?page=${empty param.page ? 1 : param.page}&size=${empty param.size ? 10 : param.size}", MenuOperations.DEFAULT_MENU_ITEM_PREFIX);
++		menuOperations.addMenuItem(categoryName, new JavaSymbolName("list"), new JavaSymbolName(getPlural(beanInfoMetadata.getJavaBean())).getReadableSymbolName(), "global_menu_list", "/" + controllerPath + "?page=1&size=${empty param.size ? 10 : param.size}", MenuOperations.DEFAULT_MENU_ITEM_PREFIX);
+ 

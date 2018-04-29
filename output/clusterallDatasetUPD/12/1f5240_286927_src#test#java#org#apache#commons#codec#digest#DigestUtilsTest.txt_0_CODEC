@@ -1,0 +1,6 @@
+286927
+@@ -240,3 +240,3 @@
+         assertEquals(DigestUtils.shaHex(testData),
+-                DigestUtils.shaHex(new ByteArrayInputStream(testData)));
++                DigestUtils.sha1Hex(new ByteArrayInputStream(testData)));
+     }

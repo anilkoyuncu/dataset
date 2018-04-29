@@ -1,0 +1,6 @@
+18987b
+@@ -308,3 +308,3 @@
+ 
+-            if (!(Bytes.equals(info.getTableName(), desc.getName()))) {
++            if (!(Bytes.equals(info.getTableDesc().getName(), desc.getName()))) {
+               return false;

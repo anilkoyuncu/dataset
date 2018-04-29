@@ -1,0 +1,6 @@
+209b6f
+@@ -90,3 +90,3 @@
+         "To shutdown the regionserver run " +
+-        "bin/hbase-daemon.sh stop regionserver or send a kill signal to" +
++        "bin/hbase-daemon.sh stop regionserver or send a kill signal to " +
+         "the regionserver pid");

@@ -1,0 +1,6 @@
+06d8c8
+@@ -727,3 +727,3 @@
+         if (!beeLine.isComment(extra)) {
+-          line += " " + extra;
++          line += "\n" + extra;
+         }

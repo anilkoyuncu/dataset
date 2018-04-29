@@ -1,0 +1,5 @@
+2e8c79
+@@ -81,2 +81,3 @@
+ @RunAsClient
++@Ignore("WFLY-9037")
+ public class RemoteFailoverTestCase extends ClusterAbstractTestCase {

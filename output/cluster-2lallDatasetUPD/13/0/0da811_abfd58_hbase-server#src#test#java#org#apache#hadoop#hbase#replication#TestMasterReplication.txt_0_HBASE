@@ -1,0 +1,8 @@
+abfd58
+@@ -90,4 +90,4 @@
+ 
+-  private static final long SLEEP_TIME = 500;
+-  private static final int NB_RETRIES = 10;
++  private static final long SLEEP_TIME = 1000;
++  private static final int NB_RETRIES = 120;
+ 

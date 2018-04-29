@@ -1,0 +1,6 @@
+2704cd
+@@ -739,3 +739,3 @@
+       this.hashCode = in.readInt();
+-    } else if (getVersion() == VERSION) {
++    } else if (getVersion() == version) {
+       this.endKey = Bytes.readByteArray(in);

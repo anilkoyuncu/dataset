@@ -1,0 +1,6 @@
+d05150
+@@ -438,3 +438,3 @@
+       // And assign it.
+-      assignmentManager.assign(daughter, true);
++      assignmentManager.assign(daughter, true, true);
+       return 1;

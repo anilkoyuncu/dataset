@@ -1,0 +1,6 @@
+36eeb7
+@@ -205,3 +205,3 @@
+     connector.setHost(servlet.getConfiguration().get("hbase.rest.host", "0.0.0.0"));
+-    connector.setHeaderBufferSize(8192);
++    connector.setHeaderBufferSize(65536);
+ 

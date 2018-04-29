@@ -1,0 +1,6 @@
+9473ab
+@@ -2492,3 +2492,3 @@
+       throw new AccessDeniedException("User '" + (activeUser != null ?
+-        activeUser.getShortName() : "null") + "is not system or super user.");
++        activeUser.getShortName() : "null") + "' is not system or super user.");
+     }

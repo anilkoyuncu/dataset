@@ -1,0 +1,6 @@
+176cba
+@@ -34,3 +34,3 @@
+ 		shell.setLayout(new FillLayout(SWT.VERTICAL));
+-		String string = "The quick brown fox jumped over the lazy brown dog";
++		String string = "The quick brown fox jumps over the lazy dog";
+ 		Button button;

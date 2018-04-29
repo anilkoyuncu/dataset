@@ -1,0 +1,5 @@
+841b0a
+@@ -34,2 +34,3 @@
+ 		display.syncExec(new Runnable() {
++			@Override
+ 			public void run() {

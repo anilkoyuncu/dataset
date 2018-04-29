@@ -1,0 +1,6 @@
+6ae430
+@@ -298,3 +298,3 @@
+    */
+-  public void shutdown() {
++  public synchronized void shutdown() {
+     scheduler.shutdownNow();

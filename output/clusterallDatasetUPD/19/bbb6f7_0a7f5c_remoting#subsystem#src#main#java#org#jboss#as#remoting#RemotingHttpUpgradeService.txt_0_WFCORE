@@ -1,0 +1,6 @@
+0a7f5c
+@@ -73,3 +73,3 @@
+     public static final ServiceName HTTP_UPGRADE_REGISTRY = ServiceName.JBOSS.append("http-upgrade-registry");
+-    public static final ServiceName UPGRADE_SERVICE_NAME = ServiceName.JBOSS.append("remoting ", "remoting-http-upgrade-service");
++    public static final ServiceName UPGRADE_SERVICE_NAME = ServiceName.JBOSS.append("remoting", "remoting-http-upgrade-service");
+ 

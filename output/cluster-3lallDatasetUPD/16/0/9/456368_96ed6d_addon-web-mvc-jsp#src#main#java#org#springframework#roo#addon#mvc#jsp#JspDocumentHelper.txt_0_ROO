@@ -1,0 +1,6 @@
+96ed6d
+@@ -585,3 +585,3 @@
+ 		script.setTextContent("Spring.addDecoration(new Spring.ElementDecoration({elementId : \"_" + field.getFieldName().getSymbolName()
+-				+ "\", widgetType: \"dijit.form.MultiSelect\")); ");
++				+ "\", widgetType: \"dijit.form.MultiSelect\"})); ");
+ 		return script;

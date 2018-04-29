@@ -1,0 +1,6 @@
+9267ac
+@@ -1272,3 +1272,3 @@
+ 		/* cancel pressed */
+-		Cocoa.objc_msgSend(download, Cocoa.S_release);
++		Cocoa.objc_msgSend(download, Cocoa.S_cancel);
+ 		return;

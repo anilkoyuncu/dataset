@@ -1,0 +1,6 @@
+67e183
+@@ -447,3 +447,3 @@
+ 	static final int GTK2_MAJOR = 2;
+-	static final int GTK2_MINOR = 18;
++	static final int GTK2_MINOR = 24;
+ 	static final int GTK2_MICRO = 0;

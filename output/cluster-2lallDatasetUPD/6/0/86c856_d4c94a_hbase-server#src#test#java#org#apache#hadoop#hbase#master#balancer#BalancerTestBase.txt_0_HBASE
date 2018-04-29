@@ -1,0 +1,6 @@
+d4c94a
+@@ -58,3 +58,3 @@
+   // This class is introduced because IP to rack resolution can be lengthy.
+-  static class MockMapping implements DNSToSwitchMapping {
++  public static class MockMapping implements DNSToSwitchMapping {
+     public MockMapping(Configuration conf) {

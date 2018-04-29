@@ -1,0 +1,6 @@
+157623
+@@ -217,3 +217,3 @@
+ 	public MediaType(String type, String subtype, Charset charSet) {
+-		this(type, subtype, Collections.singletonMap(PARAM_CHARSET, charSet.toString()));
++		this(type, subtype, Collections.singletonMap(PARAM_CHARSET, charSet.name()));
+ 	}

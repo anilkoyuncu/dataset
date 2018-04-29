@@ -1,0 +1,6 @@
+e40cdb
+@@ -94,3 +94,3 @@
+ 	public void runClean() throws IOException {
+-		mvn("clean eclipse:clean");
++		mvn("clean");
+ 	}

@@ -1,0 +1,6 @@
+cb274d
+@@ -128,3 +128,3 @@
+ 	public void commentOnNetworkUpdate(String updateKey, String comment) {
+-		restOperations.put(UPDATE_COMMENTS_URL, singletonMap("comment", comment), updateKey);
++		restOperations.postForLocation(UPDATE_COMMENTS_URL, singletonMap("comment", comment), updateKey);
+ 	}

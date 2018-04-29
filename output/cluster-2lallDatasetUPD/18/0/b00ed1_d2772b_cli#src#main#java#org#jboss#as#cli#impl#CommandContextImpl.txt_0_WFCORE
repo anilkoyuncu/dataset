@@ -1,0 +1,6 @@
+d2772b
+@@ -1121,3 +1121,3 @@
+             if (trustManager.isModifyTrustStore()) {
+-                response = readLine("Accept certificate? [N]o, [T]emporarily, [P]ermenantly : ", false);
++                response = readLine("Accept certificate? [N]o, [T]emporarily, [P]ermanently : ", false);
+             } else {

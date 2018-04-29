@@ -1,0 +1,6 @@
+867cb6
+@@ -340,3 +340,3 @@
+ 			
+-			List defaultProperties= AntCorePlugin.getPlugin().getPreferences().getDefaultProperties();
++			List defaultProperties= AntCorePlugin.getPlugin().getPreferences().getProperties();
+ 			ListIterator li = defaultProperties.listIterator();

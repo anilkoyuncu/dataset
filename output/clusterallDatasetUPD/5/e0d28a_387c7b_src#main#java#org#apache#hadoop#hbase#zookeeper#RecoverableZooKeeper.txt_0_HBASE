@@ -1,0 +1,6 @@
+387c7b
+@@ -438,3 +438,3 @@
+             }
+-            LOG.error("Node " + path + " already exists and this is not a " +
++            LOG.info("Node " + path + " already exists and this is not a " +
+                 "retry");

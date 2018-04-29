@@ -1,0 +1,9 @@
+56baad
+@@ -54,4 +54,5 @@
+ 
+-  //used to signal to the caller that the region(s) cannot be assigned
+-  ServerName BOGUS_SERVER_NAME = ServerName.parseServerName("localhost,1,1");
++  // Used to signal to the caller that the region(s) cannot be assigned
++  // We deliberately use 'localhost' so the operation will fail fast
++  ServerName BOGUS_SERVER_NAME = ServerName.valueOf("localhost,1,1");
+ 

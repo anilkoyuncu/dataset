@@ -1,0 +1,6 @@
+54bd81
+@@ -129,3 +129,3 @@
+ 		try {
+-			facesContext.getApplication().getStateManager().saveView(facesContext);
++			facesContext.getApplication().getStateManager().saveSerializedView(facesContext);
+ 		} finally {

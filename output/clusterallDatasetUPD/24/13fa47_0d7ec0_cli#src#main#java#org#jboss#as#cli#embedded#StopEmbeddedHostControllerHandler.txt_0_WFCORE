@@ -1,0 +1,6 @@
+0d7ec0
+@@ -63,3 +63,3 @@
+             try {
+-                hostControllerLaunch.getHostController().stop();
++                hostControllerLaunch.stop();
+             } finally {

@@ -1,0 +1,6 @@
+380989
+@@ -5678,3 +5678,3 @@
+ 		content.replaceTextRange(start, end - start, text);
+-		setCaretOffset(ime.getCompositionOffset(), SWT.DEFAULT);
++		setCaretOffset(ime.getCaretOffset(), SWT.DEFAULT);
+ 		if (ime.getWideCaret()) {

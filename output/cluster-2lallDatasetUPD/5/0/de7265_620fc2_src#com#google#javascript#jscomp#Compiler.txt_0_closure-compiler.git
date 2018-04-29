@@ -1,0 +1,23 @@
+620fc2
+@@ -1429,3 +1429,5 @@
+ 
+-        String code = toSource(root, sourceMap);
++        // if LanguageMode is ECMASCRIPT5_STRICT, only print 'use strict'
++        // for the first input file
++        String code = toSource(root, sourceMap, inputSeqNum == 0);
+         if (!code.isEmpty()) {
+@@ -1458,3 +1460,3 @@
+     initCompilerOptionsIfTesting();
+-    return toSource(n, null);
++    return toSource(n, null, true);
+   }
+@@ -1464,3 +1466,3 @@
+    */
+-  private String toSource(Node n, SourceMap sourceMap) {
++  private String toSource(Node n, SourceMap sourceMap, boolean firstOutput) {
+     CodePrinter.Builder builder = new CodePrinter.Builder(n);
+@@ -1470,3 +1472,3 @@
+     builder.setSourceMapDetailLevel(options.sourceMapDetailLevel);
+-    builder.setTagAsStrict(
++    builder.setTagAsStrict(firstOutput &&
+         options.getLanguageOut() == LanguageMode.ECMASCRIPT5_STRICT);

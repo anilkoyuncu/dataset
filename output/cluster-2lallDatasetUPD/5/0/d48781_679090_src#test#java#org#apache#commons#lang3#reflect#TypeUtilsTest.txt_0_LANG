@@ -1,0 +1,6 @@
+679090
+@@ -343,3 +343,3 @@
+         dis = ding;
+-        Assert.assertTrue(String.format("type %s not assignable to %s!", dingType, disType),
++        Assert.assertFalse(String.format("type %s not assignable to %s!", dingType, disType),
+                 TypeUtils.isAssignable(dingType, disType));

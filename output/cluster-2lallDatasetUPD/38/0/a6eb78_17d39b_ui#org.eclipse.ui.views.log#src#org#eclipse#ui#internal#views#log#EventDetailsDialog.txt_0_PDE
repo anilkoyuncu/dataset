@@ -1,0 +1,6 @@
+17d39b
+@@ -345,3 +345,3 @@
+ 			String session = logEntry.getSession().getSessionData();
+-			if (stack != null) {
++			if (session != null) {
+ 				sessionDataText.setText(session);

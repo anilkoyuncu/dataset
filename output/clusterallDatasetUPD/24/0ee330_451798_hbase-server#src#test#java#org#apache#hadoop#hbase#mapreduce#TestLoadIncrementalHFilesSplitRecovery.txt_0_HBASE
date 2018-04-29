@@ -1,0 +1,6 @@
+451798
+@@ -153,3 +153,3 @@
+ 
+-      util.getHBaseAdmin().createTable(htd, SPLIT_KEYS);
++      util.createTable(htd, SPLIT_KEYS);
+     } catch (TableExistsException tee) {

@@ -1,0 +1,6 @@
+860e2b
+@@ -64,3 +64,3 @@
+ 				try {
+-					MockHttpServletRequestBuilder requestBuilder = request(httpMethod, uri.toString());
++					MockHttpServletRequestBuilder requestBuilder = request(httpMethod, uri);
+ 					requestBuilder.content(getBodyAsBytes());

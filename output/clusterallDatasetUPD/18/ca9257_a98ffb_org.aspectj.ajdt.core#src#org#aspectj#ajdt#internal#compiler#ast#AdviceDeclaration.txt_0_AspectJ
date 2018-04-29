@@ -1,0 +1,6 @@
+a98ffb
+@@ -333,3 +333,3 @@
+ 		if (kind == AdviceKind.Around) {
+-			extraArgument = makeFinalArgument("ajc_aroundClosure", AjTypeConstants.getAroundClosureType());
++			extraArgument = makeFinalArgument("ajc$aroundClosure", AjTypeConstants.getAroundClosureType());
+ 		}

@@ -1,0 +1,6 @@
+eef6a4
+@@ -56,3 +56,3 @@
+   public String getNameAsString() {
+-    return Bytes.toString(getName());
++    return Bytes.toStringBinary(getName());
+   }

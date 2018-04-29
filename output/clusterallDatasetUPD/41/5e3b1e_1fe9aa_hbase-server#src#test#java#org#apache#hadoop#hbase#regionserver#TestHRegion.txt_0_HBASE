@@ -1,0 +1,6 @@
+1fe9aa
+@@ -3562,3 +3562,3 @@
+     Configuration conf = HBaseConfiguration.create();
+-    String method = "testParallelismIncrementWithMemStoreFlush";
++    String method = "testParallelIncrementWithMemStoreFlush";
+     byte[] tableName = Bytes.toBytes(method);

@@ -1,0 +1,6 @@
+afb460
+@@ -1270,3 +1270,3 @@
+       method.setAccessible(true);
+-      ctor = clazz.getConstructor(Subject.class);
++      ctor = clazz.getDeclaredConstructor(Subject.class);
+       ctor.setAccessible(true);

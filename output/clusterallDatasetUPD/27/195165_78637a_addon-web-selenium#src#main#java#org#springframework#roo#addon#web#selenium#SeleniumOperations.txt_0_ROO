@@ -1,0 +1,6 @@
+78637a
+@@ -136,3 +136,3 @@
+ 
+-		tbody.appendChild(clickAndWaitCommand(selenium, "//input[@value='Save']" ));	
++		tbody.appendChild(clickAndWaitCommand(selenium, "//input[@id='proceed']" ));	
+ 		

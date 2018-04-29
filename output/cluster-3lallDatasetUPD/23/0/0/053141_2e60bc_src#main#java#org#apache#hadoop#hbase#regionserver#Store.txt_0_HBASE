@@ -1,0 +1,6 @@
+2e60bc
+@@ -1483,3 +1483,3 @@
+       ClassSize.OBJECT + (14 * ClassSize.REFERENCE) + (1 * Bytes.SIZEOF_DOUBLE) +
+-      (6 * Bytes.SIZEOF_LONG) + (3 * Bytes.SIZEOF_INT) + (Bytes.SIZEOF_BOOLEAN * 2));
++      (6 * Bytes.SIZEOF_LONG) + (4 * Bytes.SIZEOF_INT) + (Bytes.SIZEOF_BOOLEAN * 2));
+ 

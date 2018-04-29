@@ -1,0 +1,6 @@
+71c614
+@@ -74,3 +74,3 @@
+ 	public void testGetStartTime() {
+-		assertNotNull(execution.getStartTime());
++		assertNull(execution.getStartTime());
+ 		execution.setStartTime(new Date(0L));

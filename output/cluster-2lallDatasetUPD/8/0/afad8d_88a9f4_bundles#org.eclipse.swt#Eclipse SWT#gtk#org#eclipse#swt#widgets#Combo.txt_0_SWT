@@ -1,0 +1,6 @@
+88a9f4
+@@ -1662,3 +1662,3 @@
+ 		if (OS.GTK3) {
+-			OS.gtk_combo_box_text_remove(handle, index);
++			OS.gtk_combo_box_text_remove(handle, i);
+ 		} else {

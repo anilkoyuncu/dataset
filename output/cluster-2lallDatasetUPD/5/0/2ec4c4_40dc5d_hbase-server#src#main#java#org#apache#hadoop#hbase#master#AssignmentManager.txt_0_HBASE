@@ -1,0 +1,6 @@
+40dc5d
+@@ -1750,3 +1750,3 @@
+       try {
+-        LOG.debug("Assigning region " + state.getRegion().getRegionNameAsString() +
++        LOG.info("Assigning region " + state.getRegion().getRegionNameAsString() +
+           " to " + plan.getDestination().toString());

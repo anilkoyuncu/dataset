@@ -1,0 +1,10 @@
+7a1c40
+@@ -85,3 +85,7 @@
+ 
+-  private static final String RETURN_RESULTS = "_rr_";
++  /**
++   * @deprecated this field is private as of HBase 2.0.
++   */
++  @Deprecated
++  protected static final String RETURN_RESULTS = "_rr_";
+ 

@@ -1,0 +1,8 @@
+6a73d5
+@@ -79,4 +79,4 @@
+       NB_ROWS_IN_BATCH * 10;
+-  private static final long SLEEP_TIME = 1500;
+-  private static final int NB_RETRIES = 10;
++  private static final long SLEEP_TIME = 2000;
++  private static final int NB_RETRIES = 20;
+ 

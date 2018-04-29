@@ -1,0 +1,6 @@
+4877cf
+@@ -40,3 +40,3 @@
+                     module, projectOperations);
+-            applicationContextOperations.createMiddleTierApplicationContext(
++            getApplicationContextOperations().createMiddleTierApplicationContext(
+                     topLevelPackage, fullyQualifiedModuleName);

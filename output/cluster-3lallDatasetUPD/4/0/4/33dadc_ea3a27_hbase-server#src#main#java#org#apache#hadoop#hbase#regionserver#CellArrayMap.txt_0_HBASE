@@ -1,0 +1,6 @@
+ea3a27
+@@ -50,3 +50,3 @@
+   protected Cell getCell(int i) {
+-    if( (i < minCellIdx) && (i >= maxCellIdx) ) return null;
++    if( (i < minCellIdx) || (i >= maxCellIdx) ) return null;
+     return block[i];

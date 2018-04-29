@@ -1,0 +1,8 @@
+64114e
+@@ -173,4 +173,4 @@
+       // Expected error
+-      assertTrue(e.getMessage().contains("Failed to validate proxy privilege"));
+-      assertTrue(e.getCause().getCause().getMessage().contains("Failed to validate proxy privilege"));
++      assertTrue(e.getMessage().contains("Error retrieving delegation token for user"));
++      assertTrue(e.getCause().getCause().getMessage().contains("is not allowed to impersonate"));
+     } finally {

@@ -1,0 +1,6 @@
+3cc99b
+@@ -29,3 +29,3 @@
+  */
+-class SpringDataMongodbQuery<T> extends MongodbQuery<T> {
++public class SpringDataMongodbQuery<T> extends MongodbQuery<T> {
+ 

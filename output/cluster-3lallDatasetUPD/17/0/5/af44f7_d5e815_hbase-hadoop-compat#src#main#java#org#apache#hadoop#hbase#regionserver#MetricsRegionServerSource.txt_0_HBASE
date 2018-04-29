@@ -1,0 +1,6 @@
+d5e815
+@@ -283,3 +283,3 @@
+   String SPLIT_REQUEST_DESC = "Number of splits requested";
+-  String SPLIT_SUCCESS_KEY = "splitSuccessCounnt";
++  String SPLIT_SUCCESS_KEY = "splitSuccessCount";
+   String SPLIT_SUCCESS_DESC = "Number of successfully executed splits";

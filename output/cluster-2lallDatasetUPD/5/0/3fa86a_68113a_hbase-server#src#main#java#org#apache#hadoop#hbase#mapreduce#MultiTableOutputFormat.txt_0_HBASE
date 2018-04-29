@@ -1,0 +1,9 @@
+68113a
+@@ -121,5 +121,5 @@
+       for (BufferedMutator mutator : mutatorMap.values()) {
+-        mutator.flush();
++        mutator.close();
+       }
+-      if(connection != null){
++      if (connection != null) {
+         connection.close();

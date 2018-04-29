@@ -1,0 +1,6 @@
+6e3a39
+@@ -76,3 +76,3 @@
+                         clusteredSingletonFound = true;
+-                        builder.addDependency(CLUSTERED_SINGLETON_CAPABILITY.getCapabilityServiceName().append("service"));
++                        builder.addDependency(CLUSTERED_SINGLETON_CAPABILITY.getCapabilityServiceName().append("primary"));
+                     }

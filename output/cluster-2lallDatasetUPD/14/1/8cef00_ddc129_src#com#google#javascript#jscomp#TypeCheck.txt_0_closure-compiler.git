@@ -1,0 +1,11 @@
+ddc129
+@@ -1178,3 +1178,3 @@
+    */
+-  private boolean propertyIsImplicitCast(ObjectType type, String prop) {
++  private static boolean propertyIsImplicitCast(ObjectType type, String prop) {
+     for (; type != null; type = type.getImplicitPrototype()) {
+@@ -1660,3 +1660,3 @@
+       FunctionType fnType = type.toMaybeFunctionType();
+-      if (fnType != null) {
++      if (fnType != null && fnType.hasInstanceType()) {
+         visitParameterList(t, n, fnType);

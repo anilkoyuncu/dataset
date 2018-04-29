@@ -1,0 +1,6 @@
+cc7ecd
+@@ -21,3 +21,3 @@
+  */
+-public class ReflectionVar extends Var {
++public final class ReflectionVar extends Var {
+ 

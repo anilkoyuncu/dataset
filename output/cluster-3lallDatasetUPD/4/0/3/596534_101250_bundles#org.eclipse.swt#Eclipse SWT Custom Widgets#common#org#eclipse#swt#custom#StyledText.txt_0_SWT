@@ -1,0 +1,6 @@
+101250
+@@ -2468,3 +2468,3 @@
+ 		int length = content.getCharCount();		
+-		if (caretOffset < length) {
++		if (caretOffset <= length) {
+ 			setCaretOffset(length, SWT.DEFAULT);

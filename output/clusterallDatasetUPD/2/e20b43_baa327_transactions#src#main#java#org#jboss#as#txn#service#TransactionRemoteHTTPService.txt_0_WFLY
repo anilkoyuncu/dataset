@@ -1,0 +1,6 @@
+baa327
+@@ -50,3 +50,3 @@
+     public void stop(StopContext context) {
+-        pathHandlerInjectedValue.getValue().removePrefixPath("/ejb");
++        pathHandlerInjectedValue.getValue().removePrefixPath("/txn");
+     }

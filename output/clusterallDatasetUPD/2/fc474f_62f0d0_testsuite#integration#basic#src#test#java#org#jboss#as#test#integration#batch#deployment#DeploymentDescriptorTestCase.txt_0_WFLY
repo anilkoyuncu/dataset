@@ -1,0 +1,6 @@
+62f0d0
+@@ -141,3 +141,3 @@
+             op.get("jndi-name").set("java:jboss/datasources/batch");
+-            op.get("connection-url").set("jdbc:h2:batch-test");
++            op.get("connection-url").set("jdbc:h2:mem:batch-test");
+             operationBuilder.addStep(op);

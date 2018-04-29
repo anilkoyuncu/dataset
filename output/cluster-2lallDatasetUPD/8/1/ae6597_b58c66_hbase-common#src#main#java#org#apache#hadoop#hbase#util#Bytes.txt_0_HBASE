@@ -1,0 +1,6 @@
+b58c66
+@@ -922,3 +922,3 @@
+   public static short toShort(byte[] bytes) {
+-    return toShortUnsafe(bytes, 0);
++    return toShort(bytes, 0, SIZEOF_SHORT);
+   }

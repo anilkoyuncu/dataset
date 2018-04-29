@@ -1,0 +1,6 @@
+840ffc
+@@ -47,3 +47,3 @@
+  */
+-public final class CCombo extends Composite {
++public class CCombo extends Composite {
+ 

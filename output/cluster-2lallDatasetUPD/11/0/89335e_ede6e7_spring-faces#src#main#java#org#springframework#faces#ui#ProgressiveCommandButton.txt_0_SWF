@@ -1,0 +1,6 @@
+ede6e7
+@@ -72,3 +72,3 @@
+ 					.getTransition(getActionExpression().getExpressionString());
+-			if (transition.getAttributes().contains("bind")) {
++			if (transition != null && transition.getAttributes().contains("bind")) {
+ 				return Boolean.FALSE.equals(transition.getAttributes().getBoolean("bind"));

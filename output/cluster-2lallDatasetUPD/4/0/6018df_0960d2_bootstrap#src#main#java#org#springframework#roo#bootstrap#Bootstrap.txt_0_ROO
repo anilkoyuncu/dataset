@@ -1,0 +1,6 @@
+0960d2
+@@ -37,3 +37,3 @@
+         	for (int i = 1; i < args.length; i++) {
+-        		if (i > 2) {
++        		if (i >= 2) {
+         			sb.append(" ");

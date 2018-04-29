@@ -1,0 +1,6 @@
+9d91bb
+@@ -31,3 +31,3 @@
+ 	
+-	public synchronized void fireModelProviderEvent(IModelProviderEvent event) {
++	public void fireModelProviderEvent(IModelProviderEvent event) {
+ 		for (Iterator iter = fListeners.iterator(); iter.hasNext();) {

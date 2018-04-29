@@ -1,0 +1,6 @@
+7996a2
+@@ -92,3 +92,3 @@
+     public static final String BASIC_NAME = "BASIC";
+-    public static final String CLIENT_CERT_NAME = "CLIENT-CERT";
++    public static final String CLIENT_CERT_NAME = "CLIENT_CERT";
+     public static final String DIGEST_NAME = "DIGEST";

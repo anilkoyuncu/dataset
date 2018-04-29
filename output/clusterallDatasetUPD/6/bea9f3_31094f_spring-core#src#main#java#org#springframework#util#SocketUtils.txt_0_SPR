@@ -1,0 +1,6 @@
+31094f
+@@ -39,3 +39,3 @@
+  */
+-public abstract class SocketUtils {
++public class SocketUtils {
+ 

@@ -1,0 +1,6 @@
+eccb49
+@@ -76,3 +76,3 @@
+ 
+-    public static final String SEAM_INT_JAR = "jboss-seam-int.jar";
++    public static final String SEAM_INT_JAR = "jboss-seam-int-jbossas.jar";
+     public static final ModuleIdentifier EXT_CONTENT_MODULE = ModuleIdentifier.create("org.jboss.integration.ext-content");

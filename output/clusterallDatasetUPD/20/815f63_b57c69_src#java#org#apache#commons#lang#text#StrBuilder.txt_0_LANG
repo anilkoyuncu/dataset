@@ -1,0 +1,6 @@
+b57c69
+@@ -69,3 +69,3 @@
+  */
+-public class StrBuilder implements Cloneable {
++public class StrBuilder {
+ 

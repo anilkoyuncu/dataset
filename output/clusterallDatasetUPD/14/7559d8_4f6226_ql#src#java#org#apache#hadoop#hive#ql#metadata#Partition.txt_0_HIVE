@@ -1,0 +1,6 @@
+4f6226
+@@ -68,3 +68,3 @@
+ 
+-    Partition(Table tbl, org.apache.hadoop.hive.metastore.api.Partition tp) throws HiveException {
++    public Partition(Table tbl, org.apache.hadoop.hive.metastore.api.Partition tp) throws HiveException {
+       this.table = tbl;

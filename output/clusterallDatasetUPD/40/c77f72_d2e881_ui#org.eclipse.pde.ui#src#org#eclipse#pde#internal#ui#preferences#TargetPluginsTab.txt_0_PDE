@@ -1,0 +1,6 @@
+d2e881
+@@ -482,3 +482,3 @@
+ 					if (model != null)
+-						features.push(model);
++						features.push(model.getFeature());
+ 				}

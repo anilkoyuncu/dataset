@@ -1,0 +1,6 @@
+96c040
+@@ -116,3 +116,3 @@
+ 			String filterhandle = marker.getAttribute(IApiMarkerConstants.MARKER_ATTR_FILTER_HANDLE_ID, null);
+-			String[] values = filterhandle.split("]"); //$NON-NLS-1$
++			String[] values = filterhandle.split("%]"); //$NON-NLS-1$
+ 			IProject project = marker.getResource().getProject();

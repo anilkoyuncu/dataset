@@ -1,0 +1,6 @@
+79b341
+@@ -142,3 +142,3 @@
+     ROBBER = User.getCurrent().getName() + "-robber";
+-    ZOMBIE = User.getCurrent().getName() + "-robber";
++    ZOMBIE = User.getCurrent().getName() + "-zombie";
+     u2g_map.put(ROBBER, GROUP);

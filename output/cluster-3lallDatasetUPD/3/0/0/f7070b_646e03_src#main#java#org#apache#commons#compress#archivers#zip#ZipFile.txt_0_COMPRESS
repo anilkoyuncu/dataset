@@ -1,0 +1,6 @@
+646e03
+@@ -136,3 +136,3 @@
+      */
+-    private boolean closed = true;
++    private volatile boolean closed = true;
+ 

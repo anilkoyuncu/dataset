@@ -1,0 +1,6 @@
+8523dd
+@@ -863,3 +863,3 @@
+ 	if (lastOffset < length) layout.setStyle(null, lastOffset, length);
+-	if (styledText.isFixedLineHeight()) {
++	if (styledText != null && styledText.isFixedLineHeight()) {
+ 		int index = -1;

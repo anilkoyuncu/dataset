@@ -1,0 +1,6 @@
+1f6b06
+@@ -48,3 +48,3 @@
+ 
+-    private static final int MANAGEMENT_API_MAJOR_VERSION = 2;
++    private static final int MANAGEMENT_API_MAJOR_VERSION = 3;
+     private static final int MANAGEMENT_API_MINOR_VERSION = 0;

@@ -1,0 +1,6 @@
+1a237b
+@@ -206,3 +206,3 @@
+ 
+-    public void XtestDuplicateEntry() throws Exception {
++    public void testDuplicateEntry() throws Exception {
+         File f = File.createTempFile("commons-compress-zipfiletest", ".zip");

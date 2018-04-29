@@ -1,0 +1,6 @@
+3e3fa2
+@@ -175,3 +175,3 @@
+ 		StringBuilder builder = new StringBuilder("    // AppEngine user authentication\n\n");
+-		builder.append("    // AppEngine user authentication\n\n");
++		builder.append("    new GaeLoginWidgetDriver(requestFactory).setWidget(shell.loginWidget);\n\n");
+ 		builder.append("    new ReloadOnAuthenticationFailure().register(eventBus);\n\n");

@@ -1,0 +1,6 @@
+90df2b
+@@ -53,3 +53,3 @@
+ 			combo = new CCombo(parent, style | SWT.FLAT);
+-		toolkit.adapt(combo, true, true);
++		toolkit.adapt(combo, true, false);
+ 	}

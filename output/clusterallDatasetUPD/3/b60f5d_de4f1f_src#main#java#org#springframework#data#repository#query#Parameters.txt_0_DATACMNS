@@ -1,0 +1,7 @@
+de4f1f
+@@ -47,4 +47,4 @@
+ 			Pageable.class.getSimpleName(), Sort.class.getSimpleName());
+-	private static final ParameterNameDiscoverer PARAMETER_DISCOVERER = new DefaultParameterNameDiscoverer();
+ 
++	private final ParameterNameDiscoverer PARAMETER_DISCOVERER = new DefaultParameterNameDiscoverer();
+ 	private final int pageableIndex;

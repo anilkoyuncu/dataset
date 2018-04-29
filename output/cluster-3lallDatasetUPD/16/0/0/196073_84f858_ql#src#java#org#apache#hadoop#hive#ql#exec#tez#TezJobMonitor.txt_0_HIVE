@@ -1,0 +1,7 @@
+84f858
+@@ -143,4 +143,3 @@
+               perfLogger.PerfLogEnd(CLASS_NAME, PerfLogger.TEZ_SUBMIT_TO_RUNNING);
+-              console.printInfo("Status: Running (application id: "
+-                +dagClient.getExecutionContext()+")\n");
++              console.printInfo("Status: Running (" + dagClient.getExecutionContext() + ")\n");
+               for (String s: progressMap.keySet()) {

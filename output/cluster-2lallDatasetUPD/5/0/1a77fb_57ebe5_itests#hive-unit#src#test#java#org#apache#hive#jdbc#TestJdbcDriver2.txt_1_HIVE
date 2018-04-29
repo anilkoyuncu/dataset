@@ -1,0 +1,8 @@
+57ebe5
+@@ -1309,4 +1309,4 @@
+     assertFalse(meta.supportsCatalogsInTableDefinitions());
+-    assertFalse(meta.supportsSchemasInTableDefinitions());
+-    assertFalse(meta.supportsSchemasInDataManipulation());
++    assertTrue(meta.supportsSchemasInTableDefinitions());
++    assertTrue(meta.supportsSchemasInDataManipulation());
+     assertFalse(meta.supportsMultipleResultSets());

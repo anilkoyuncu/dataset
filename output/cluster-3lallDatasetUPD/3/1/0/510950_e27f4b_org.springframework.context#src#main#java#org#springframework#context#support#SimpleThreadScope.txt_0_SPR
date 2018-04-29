@@ -1,0 +1,6 @@
+e27f4b
+@@ -49,3 +49,3 @@
+ 
+-	private static final ThreadLocal<Map<String, Object>> threadScope =
++	private final ThreadLocal<Map<String, Object>> threadScope =
+ 			new NamedThreadLocal<Map<String, Object>>("SimpleThreadScope") {

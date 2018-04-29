@@ -1,0 +1,6 @@
+bb327b
+@@ -1141,3 +1141,3 @@
+ 			if (request != null) {
+-				HttpServletResponse response = webRequest.getNativeRequest(HttpServletResponse.class);
++				HttpServletResponse response = webRequest.getNativeResponse(HttpServletResponse.class);
+ 				initContextHolders(request, buildLocaleContext(request),

@@ -1,0 +1,6 @@
+43db5c
+@@ -3755,3 +3755,3 @@
+ 	if (updated && getParent() != null) {
+-		getParent().layout(true, true);
++		getParent().layout(true, false);
+ 	}

@@ -1,0 +1,6 @@
+ea3498
+@@ -96,3 +96,3 @@
+ 
+-		String preEstablishedRedirectUri = element.getAttribute("preEstablished-redirect-uri");
++		String preEstablishedRedirectUri = element.getAttribute("pre-established-redirect-uri");
+ 		if (StringUtils.hasText(preEstablishedRedirectUri)) {

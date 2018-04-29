@@ -1,0 +1,6 @@
+240ef1
+@@ -137,3 +137,3 @@
+       HFileScanner scanner = reader.getScanner(false, true);
+-      scanner.next();
++      scanner.seekTo(); // position to the start of file
+       // Scanner does not do Cells yet. Do below for now till fixed.

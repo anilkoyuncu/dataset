@@ -1,0 +1,6 @@
+6fe677
+@@ -36,3 +36,3 @@
+ 	@Bean
+-	public ObjectPostProcessor<Object> objectPostProcessor(AutowireCapableBeanFactory beanFactory) {
++	public ObjectPostProcessor<Object> yarnObjectPostProcessor(AutowireCapableBeanFactory beanFactory) {
+ 		return new AutowireBeanFactoryObjectPostProcessor(beanFactory);

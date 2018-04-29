@@ -1,0 +1,6 @@
+87da45
+@@ -115,3 +115,3 @@
+     super.initialize(size);
+-    LOG.info("ColumnarSerDe initialized with: columnNames="
++    LOG.debug("ColumnarSerDe initialized with: columnNames="
+         + serdeParams.getColumnNames() + " columnTypes="

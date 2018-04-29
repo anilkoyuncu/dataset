@@ -1,0 +1,6 @@
+b6fc7f
+@@ -467,3 +467,3 @@
+ 		int modifiers = OS.GetCurrentEventKeyModifiers ();
+-		sendMouseEvent (SWT.MouseUp, button [0], chord, (short)x, (short)y, modifiers, false);
++		sendMouseEvent (SWT.MouseUp, button [0], chord, (short)x, (short)y, modifiers, true);
+ 	}

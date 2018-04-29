@@ -1,0 +1,6 @@
+60d32b
+@@ -124,3 +124,3 @@
+     desc.addFamily(new HColumnDescriptor(HConstants.CATALOG_FAMILY));
+-    desc.setAsyncLogFlush(true);
++    desc.setDeferredLogFlush(true);
+ 

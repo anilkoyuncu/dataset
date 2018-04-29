@@ -1,0 +1,6 @@
+8e3346
+@@ -136,3 +136,3 @@
+ 			Element pElement = appCtx.createElement("property");
+-			pElement.setAttribute("name", "encoding");
++			pElement.setAttribute("name", "defaultEncoding");
+ 			pElement.setAttribute("value", "${email.encoding}");

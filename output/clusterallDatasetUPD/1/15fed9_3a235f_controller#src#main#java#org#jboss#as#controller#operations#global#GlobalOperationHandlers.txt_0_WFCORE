@@ -1,0 +1,6 @@
+3a235f
+@@ -325,3 +325,3 @@
+ 
+-            execute(PathAddress.EMPTY_ADDRESS, address, context, context.getRootResourceRegistration(), false);
++            execute(PathAddress.EMPTY_ADDRESS, address, context, context.getRootResourceRegistration(), true);
+             context.completeStep(new OperationContext.ResultHandler() {

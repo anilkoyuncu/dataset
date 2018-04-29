@@ -1,0 +1,6 @@
+0a5cd1
+@@ -89,3 +89,3 @@
+         // Distance is now zero.
+-        Assert.assertEquals(0, dist.compute(bestAfter.getFeatures(), features), 0d);
++        Assert.assertEquals(0, dist.compute(bestAfter.getFeatures(), features), 1e-16);
+ 

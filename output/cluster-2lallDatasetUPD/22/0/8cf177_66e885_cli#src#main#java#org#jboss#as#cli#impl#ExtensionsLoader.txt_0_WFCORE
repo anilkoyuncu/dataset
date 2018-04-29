@@ -1,0 +1,6 @@
+66e885
+@@ -140,3 +140,3 @@
+             } else {
+-                final ModuleIdentifier moduleId = ModuleIdentifier.create(module.asString());
++                final ModuleIdentifier moduleId = ModuleIdentifier.fromString(module.asString());
+                 ModuleClassLoader cl;

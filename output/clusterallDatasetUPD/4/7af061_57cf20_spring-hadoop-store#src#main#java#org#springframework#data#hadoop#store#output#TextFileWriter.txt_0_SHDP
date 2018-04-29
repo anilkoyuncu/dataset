@@ -1,0 +1,6 @@
+57cf20
+@@ -73,3 +73,3 @@
+ 	public synchronized  void flush() throws IOException {
+-		if (streamsHolder == null) {
++		if (streamsHolder != null) {
+ 			streamsHolder.getStream().flush();

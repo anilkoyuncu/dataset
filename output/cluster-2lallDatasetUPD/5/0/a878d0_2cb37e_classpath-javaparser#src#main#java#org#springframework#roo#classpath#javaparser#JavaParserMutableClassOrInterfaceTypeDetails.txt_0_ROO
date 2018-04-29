@@ -1,0 +1,6 @@
+2cb37e
+@@ -405,3 +405,3 @@
+ 	        	ClassOrInterfaceType resolvedName = JavaParserUtils.getClassOrInterfaceType(nameExpr);
+-	        	extendsList.add(resolvedName);
++	        	implementsList.add(resolvedName);
+ 			}

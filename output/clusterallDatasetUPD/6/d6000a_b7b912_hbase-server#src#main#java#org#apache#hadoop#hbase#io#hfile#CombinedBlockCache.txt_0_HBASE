@@ -1,0 +1,6 @@
+b7b912
+@@ -131,3 +131,3 @@
+ 
+-  private static class CombinedCacheStats extends CacheStats {
++  public static class CombinedCacheStats extends CacheStats {
+     private final CacheStats lruCacheStats;

@@ -1,0 +1,6 @@
+73f627
+@@ -130,3 +130,3 @@
+      */
+-    private static final Object waitingOnTxCompletionKey = new Object();
++    private final Object waitingOnTxCompletionKey = new Object();
+ 

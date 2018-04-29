@@ -1,0 +1,6 @@
+77f5f0
+@@ -549,3 +549,3 @@
+                 cli.sendLine(String.format(
+-                        "/subsystem=elytron/filesystem-realm=%s:add(case-sensitive=true,path=%s)",
++                        "/subsystem=elytron/filesystem-realm=%s:add(path=%s)",
+                         FILESYSTEM_REALM_AUTHN_NAME, fsRealmPath));

@@ -1,0 +1,6 @@
+102080
+@@ -29,3 +29,3 @@
+  */
+-class SpringDataMongodbQuery<T> extends AbstractMongodbQuery<T, SpringDataMongodbQuery<T>> {
++public class SpringDataMongodbQuery<T> extends AbstractMongodbQuery<T, SpringDataMongodbQuery<T>> {
+ 

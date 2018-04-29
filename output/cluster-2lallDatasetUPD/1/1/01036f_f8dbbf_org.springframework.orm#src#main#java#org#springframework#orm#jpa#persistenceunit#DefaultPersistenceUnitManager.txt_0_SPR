@@ -1,0 +1,6 @@
+f8dbbf
+@@ -392,3 +392,3 @@
+ 		scannedUnit.setPersistenceUnitName(this.defaultPersistenceUnitName);
+-		scannedUnit.excludeUnlistedClasses();
++		scannedUnit.setExcludeUnlistedClasses(true);
+ 		if (this.packagesToScan != null) {

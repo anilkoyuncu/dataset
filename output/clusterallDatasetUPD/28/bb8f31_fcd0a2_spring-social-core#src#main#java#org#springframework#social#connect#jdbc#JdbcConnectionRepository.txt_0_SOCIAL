@@ -1,0 +1,6 @@
+fcd0a2
+@@ -95,3 +95,3 @@
+ 	public MultiValueMap<String, Connection<?>> findConnectionsToUsers(MultiValueMap<String, String> providerUsers) {
+-		if (providerUsers.isEmpty()) {
++		if (providerUsers == null || providerUsers.isEmpty()) {
+ 			throw new IllegalArgumentException("Unable to execute find: no providerUsers provided");

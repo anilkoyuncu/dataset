@@ -1,0 +1,6 @@
+1626a4
+@@ -502,3 +502,3 @@
+ 		else {
+-			ansi.reset();
++			ansi.restorCursorPosition();
+ 		}

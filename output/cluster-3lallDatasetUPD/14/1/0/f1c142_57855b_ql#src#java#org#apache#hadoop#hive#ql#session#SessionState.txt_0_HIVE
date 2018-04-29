@@ -1,0 +1,6 @@
+57855b
+@@ -397,3 +397,3 @@
+    */
+-  public HiveTxnManager initTxnMgr(HiveConf conf) throws LockException {
++  public synchronized HiveTxnManager initTxnMgr(HiveConf conf) throws LockException {
+     if (txnMgr == null) {

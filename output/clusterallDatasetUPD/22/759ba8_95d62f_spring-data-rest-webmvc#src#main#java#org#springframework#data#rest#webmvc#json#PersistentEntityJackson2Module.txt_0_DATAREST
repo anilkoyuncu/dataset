@@ -1,0 +1,6 @@
+95d62f
+@@ -359,3 +359,3 @@
+ 				Map<?, ?> source = (Map<?, ?>) value;
+-				Map<Object, Object> resources = CollectionFactory.createMap(value.getClass(), source.size());
++				Map<Object, Object> resources = CollectionFactory.createApproximateMap(value.getClass(), source.size());
+ 

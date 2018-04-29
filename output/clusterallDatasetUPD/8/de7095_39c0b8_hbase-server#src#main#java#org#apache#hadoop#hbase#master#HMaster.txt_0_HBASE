@@ -1,0 +1,6 @@
+39c0b8
+@@ -2124,3 +2124,3 @@
+     if (t != null) LOG.fatal(msg, t);
+-    stop(msg);
++    stopMaster();
+   }

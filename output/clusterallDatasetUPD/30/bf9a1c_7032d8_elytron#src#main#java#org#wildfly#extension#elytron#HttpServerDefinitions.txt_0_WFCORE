@@ -1,0 +1,6 @@
+7032d8
+@@ -168,3 +168,3 @@
+                     factory = finalFilter != null ? new FilterServerMechanismFactory(factory, finalFilter) : factory;
+-                    factory = propertiesMap != null ? new PropertiesServerMechanismFactory(factoryInjector.getValue(), propertiesMap) : factory;
++                    factory = propertiesMap != null ? new PropertiesServerMechanismFactory(factory, propertiesMap) : factory;
+ 

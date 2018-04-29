@@ -1,0 +1,6 @@
+36200f
+@@ -400,3 +400,3 @@
+       AsyncRpcChannel connectionInPool = this.connections.get(connectionHashCode);
+-      if (connectionInPool.equals(connection)) {
++      if (connectionInPool != null && connectionInPool.equals(connection)) {
+         this.connections.remove(connectionHashCode);

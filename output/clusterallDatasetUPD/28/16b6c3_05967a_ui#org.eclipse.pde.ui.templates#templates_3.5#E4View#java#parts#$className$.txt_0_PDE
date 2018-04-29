@@ -1,0 +1,6 @@
+05967a
+@@ -44,3 +44,3 @@
+ 	public void setSelection(@Named(IServiceConstants.ACTIVE_SELECTION) ISelection s) {
+-		if (s.isEmpty())
++		if (s==null || s.isEmpty())
+ 			return;

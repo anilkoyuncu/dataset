@@ -1,0 +1,6 @@
+3b7997
+@@ -230,3 +230,3 @@
+     }
+-    return TSSLTransportFactory.getServerSocket(portNum, 10000, serverAddress, params);
++    return TSSLTransportFactory.getServerSocket(portNum, 0, serverAddress, params);
+   }

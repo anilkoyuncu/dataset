@@ -1,0 +1,6 @@
+118429
+@@ -78,3 +78,3 @@
+     setupConf(UTIL.getConfiguration());
+-    UTIL.startMiniCluster(2, 2);
++    UTIL.startMiniCluster(2, 3);
+   }

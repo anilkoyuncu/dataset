@@ -1,0 +1,6 @@
+d616e6
+@@ -523,3 +523,3 @@
+ 	 */
+-	private boolean shouldValidate(Object model, TransitionDefinition transition) {
++	protected boolean shouldValidate(Object model, TransitionDefinition transition) {
+ 		Boolean validateAttribute = getValidateAttribute(transition);

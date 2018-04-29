@@ -1,0 +1,6 @@
+317841
+@@ -292,3 +292,3 @@
+     long freeSpaceWindows(String path, long timeout) throws IOException {
+-        path = FilenameUtils.normalize(path);
++        path = FilenameUtils.normalize(path, false);
+         if (path.length() > 0 && path.charAt(0) != '"') {

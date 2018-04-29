@@ -1,0 +1,6 @@
+a89d1c
+@@ -54,3 +54,3 @@
+ 
+-	private static final Map<RepositoryInformationCacheKey, RepositoryInformation> REPOSITORY_INFORMATION_CACHE = new HashMap<RepositoryInformationCacheKey, RepositoryInformation>();
++	private final Map<RepositoryInformationCacheKey, RepositoryInformation> REPOSITORY_INFORMATION_CACHE = new HashMap<RepositoryInformationCacheKey, RepositoryInformation>();
+ 

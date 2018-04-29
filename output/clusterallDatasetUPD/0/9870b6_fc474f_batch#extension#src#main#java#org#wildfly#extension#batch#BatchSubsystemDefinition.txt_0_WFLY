@@ -1,0 +1,6 @@
+fc474f
+@@ -180,3 +180,3 @@
+         @Override
+-        protected void performRuntime(final OperationContext context, final ModelNode operation, final ModelNode model)
++        protected void performBoottime(final OperationContext context, final ModelNode operation, final ModelNode model)
+                 throws OperationFailedException {

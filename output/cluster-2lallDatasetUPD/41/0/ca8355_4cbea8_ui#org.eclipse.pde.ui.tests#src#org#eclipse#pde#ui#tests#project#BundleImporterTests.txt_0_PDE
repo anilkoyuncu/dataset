@@ -1,0 +1,6 @@
+4cbea8
+@@ -41,3 +41,3 @@
+ 		String bundleId = "org.eclipse.jdt.core";
+-		String expectedURL = "scm:cvs:pserver:dev.eclipse.org:/cvsroot/eclipse:org.eclipse.jdt.core;";
++		String expectedURL = "scm:cvs:pserver:dev.eclipse.org:/cvsroot/eclipse:org.eclipse.jdt.core";
+ 		ModelEntry plugin = PluginRegistry.findEntry(bundleId);

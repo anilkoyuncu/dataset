@@ -1,0 +1,6 @@
+f500a4
+@@ -34,3 +34,3 @@
+  */
+-public class SimpleWebException extends Throwable {
++public class SimpleWebException extends Exception {
+   public int httpCode;

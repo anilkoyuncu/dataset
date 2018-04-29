@@ -1,0 +1,6 @@
+673f6e
+@@ -169,3 +169,3 @@
+ 		JavaCore.addElementChangedListener(this, ElementChangedEvent.POST_CHANGE);
+-		ResourcesPlugin.getWorkspace().addResourceChangeListener(this, IResourceChangeEvent.POST_CHANGE);
++		ResourcesPlugin.getWorkspace().addResourceChangeListener(this, IResourceChangeEvent.POST_BUILD);
+ 		PDECore.getDefault().getModelManager().addPluginModelListener(this);

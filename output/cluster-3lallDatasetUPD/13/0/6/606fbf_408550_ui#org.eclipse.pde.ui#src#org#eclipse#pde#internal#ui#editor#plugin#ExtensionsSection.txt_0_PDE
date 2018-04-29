@@ -1,0 +1,16 @@
+408550
+@@ -67,7 +67,9 @@
+ 	private static final int ACCELERATED_SCROLLING = 15; // lines to skip
+-	private static final int BUTTON_MOVE_DOWN = 5;
+-	private static final int BUTTON_MOVE_UP = 4;
+-	private static final int BUTTON_EDIT = 3;
+-	private static final int BUTTON_REMOVE = 2;
+-	private static final int BUTTON_ADD = 1;
++
++	// All constants changed for removal of search button
++	private static final int BUTTON_MOVE_DOWN = 4;
++	private static final int BUTTON_MOVE_UP = 3;
++	private static final int BUTTON_EDIT = 2;
++	private static final int BUTTON_REMOVE = 1;
++	private static final int BUTTON_ADD = 0;
+ //	private static final int BUTTON_SEARCH = 0;

@@ -1,0 +1,6 @@
+8267de
+@@ -108,3 +108,3 @@
+ 
+-        assertEquals("user1", targetBean.getPrincipalName());
++        assertEquals("anonymous", targetBean.getPrincipalName());
+     }

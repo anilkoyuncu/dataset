@@ -1,0 +1,6 @@
+12fe92
+@@ -57,3 +57,3 @@
+ 			fModified = true;
+-			fBlock.getTab().updateLaunchConfigurationDialog();
++			fBlock.getTab().scheduleUpdateJob();
+ 		}

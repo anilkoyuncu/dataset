@@ -1,0 +1,6 @@
+212b9d
+@@ -395,3 +395,3 @@
+ 		try {
+-			getContainer().run(false, true, op);
++			getContainer().run(true, true, op);
+ 			treeviewer.setInput(getCurrentComponents());

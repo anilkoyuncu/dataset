@@ -1,0 +1,6 @@
+f7f15e
+@@ -136,3 +136,3 @@
+ 
+-        request.authenticationInProgress(response -> prepareResponse(() -> getHostName(request), response));
++        request.noAuthenticationInProgress(response -> prepareResponse(() -> getHostName(request), response));
+     }

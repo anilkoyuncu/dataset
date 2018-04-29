@@ -1,0 +1,9 @@
+741371
+@@ -44,5 +44,5 @@
+ 	/**
+-	 * @deprecated should only be used by Hibernate
++	 * Package private constructor for Hibernate use only
+ 	 */
+-	public JobInstance() {
++	JobInstance() {
+ 		this(null);

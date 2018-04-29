@@ -1,0 +1,6 @@
+837c7b
+@@ -140,3 +140,3 @@
+   protected Hive db;
+-  static protected HiveConf conf;
++  protected HiveConf conf;
+   private Driver drv;

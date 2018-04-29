@@ -1,0 +1,6 @@
+937973
+@@ -812,3 +812,3 @@
+     LOG.info("testWorkerAbort");
+-    startCluster(1);
++    startCluster(2);
+     final int NUM_LOG_LINES = 10000;

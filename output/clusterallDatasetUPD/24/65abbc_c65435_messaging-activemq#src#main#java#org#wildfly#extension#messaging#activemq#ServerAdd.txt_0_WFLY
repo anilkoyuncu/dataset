@@ -1,0 +1,6 @@
+c65435
+@@ -484,3 +484,3 @@
+                 Interceptor interceptor = Interceptor.class.cast(clazz.newInstance());
+-                serverService.getIncomingInterceptors().add(interceptor);
++                serverService.getOutgoingInterceptors().add(interceptor);
+             } catch (Exception e) {

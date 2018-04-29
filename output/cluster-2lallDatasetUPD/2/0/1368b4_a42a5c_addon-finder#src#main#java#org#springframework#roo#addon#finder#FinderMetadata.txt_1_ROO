@@ -1,0 +1,10 @@
+a42a5c
+@@ -358,6 +358,6 @@
+                 bodyBuilder.indent();
+-                bodyBuilder.appendFormalLine("queryBuilder.append(\" ORDER BY \" + sortFieldName + \");\"");
++                bodyBuilder.appendFormalLine("queryBuilder.append(\" ORDER BY \").append(sortFieldName);");
+                 bodyBuilder.appendFormalLine("if (\"ASC\".equalsIgnoreCase(sortOrder) || \"DESC\".equalsIgnoreCase(sortOrder)) {");
+                 bodyBuilder.indent();
+-                bodyBuilder.appendFormalLine("queryBuilder.append(\" \").append(sortOrder)");
++                bodyBuilder.appendFormalLine("queryBuilder.append(\" \").append(sortOrder);");
+                 bodyBuilder.indentRemove();

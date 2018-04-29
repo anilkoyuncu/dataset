@@ -1,0 +1,7 @@
+7227c2
+@@ -1191,3 +1191,4 @@
+       TableName dstTable = TableName.valueOf(request.getSnapshot().getTable());
+-      master.getNamespace(dstTable.getNamespaceAsString());
++      master.getClusterSchema().getNamespace(dstTable.getNamespaceAsString());
++
+       SnapshotDescription reqSnapshot = request.getSnapshot();

@@ -1,0 +1,6 @@
+bebcbd
+@@ -107,3 +107,3 @@
+         } else {
+-            context.getResult().set(ConnectorLogger.ROOT_LOGGER.noMetricsAvailable());
++            context.getFailureDescription().set(ConnectorLogger.ROOT_LOGGER.noMetricsAvailable());
+         }

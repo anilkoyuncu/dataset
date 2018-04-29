@@ -1,0 +1,6 @@
+5317c7
+@@ -724,3 +724,3 @@
+       prefixTreeCodecClass =
+-          Class.forName("org.apache.hadoop.hbase.code.prefixtree.PrefixTreeCodec");
++          Class.forName("org.apache.hadoop.hbase.codec.prefixtree.PrefixTreeCodec");
+     } catch (ClassNotFoundException e) {

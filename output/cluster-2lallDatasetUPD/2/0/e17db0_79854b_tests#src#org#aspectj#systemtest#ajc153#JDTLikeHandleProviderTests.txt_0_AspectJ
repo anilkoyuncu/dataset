@@ -1,0 +1,7 @@
+79854b
+@@ -105,3 +105,4 @@
+ 		runTest("constructor itd with args");
+-		compareHandles(IProgramElement.Kind.INTER_TYPE_CONSTRUCTOR, "C.C(int,java.lang.String)", "<pkg*A13.aj}A13)C.C)I)QString;");
++		compareHandles(IProgramElement.Kind.INTER_TYPE_CONSTRUCTOR, "C.C(int,java.lang.String)",
++				"<pkg*A13.aj}A13)C.C_new)I)QString;");
+ 	}

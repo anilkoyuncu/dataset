@@ -1,0 +1,6 @@
+e28be2
+@@ -99,3 +99,3 @@
+ 			}
+-			response.setStatus(HttpServletResponse.SC_NOT_FOUND);
++			response.sendError(HttpServletResponse.SC_NOT_FOUND);
+ 			return;

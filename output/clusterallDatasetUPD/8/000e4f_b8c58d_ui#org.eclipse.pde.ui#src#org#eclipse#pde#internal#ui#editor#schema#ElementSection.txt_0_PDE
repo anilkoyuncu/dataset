@@ -1,0 +1,6 @@
+b8c58d
+@@ -361,3 +361,3 @@
+ 					ISchemaObject parent = sobj.getParent();
+-					fTreeViewer.add(parent, sobj);
++					fTreeViewer.refresh(parent);
+ 					fTreeViewer.setSelection(new StructuredSelection(obj), true);

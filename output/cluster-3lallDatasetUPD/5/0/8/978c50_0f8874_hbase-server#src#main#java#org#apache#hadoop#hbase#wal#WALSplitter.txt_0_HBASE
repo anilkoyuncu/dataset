@@ -1,0 +1,6 @@
+0f8874
+@@ -1333,3 +1333,3 @@
+             if (LOG.isDebugEnabled()) {
+-              LOG.debug("Closed wap " + wap.p + " (wrote " + (wap.editsWritten-wap.editsSkipped)
++              LOG.debug("Closed wap " + wap.p + " (wrote " + wap.editsWritten
+                 + " edits, skipped " + wap.editsSkipped + " edits in "

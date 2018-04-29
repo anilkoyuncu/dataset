@@ -1,0 +1,6 @@
+591f33
+@@ -218,3 +218,3 @@
+       seekScanners(scanners, matcher.getStartKey(), explicitColumnQuery && lazySeekEnabledGlobally,
+-        parallelSeekEnabled);
++        isParallelSeekEnabled);
+ 

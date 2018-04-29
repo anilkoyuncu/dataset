@@ -1,0 +1,6 @@
+b6220c
+@@ -98,3 +98,3 @@
+ 		Flux<DataBuffer> array = Flux.from(inputStream)
+-				.flatMap(value -> {
++				.concatMap(value -> {
+ 					DataBuffer arraySeparator = bufferFactory.wrap(SEPARATOR_BUFFER);

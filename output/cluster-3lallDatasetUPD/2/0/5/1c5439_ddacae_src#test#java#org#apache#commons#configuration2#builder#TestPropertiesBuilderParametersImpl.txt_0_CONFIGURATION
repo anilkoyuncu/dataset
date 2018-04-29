@@ -1,0 +1,6 @@
+ddacae
+@@ -94,3 +94,3 @@
+         EasyMock.replay(factory);
+-        BeanHelper.setProperty(params, "iOFactory", factory);
++        BeanHelper.setProperty(params, "IOFactory", factory);
+         BeanHelper.setProperty(params, "throwExceptionOnMissing",

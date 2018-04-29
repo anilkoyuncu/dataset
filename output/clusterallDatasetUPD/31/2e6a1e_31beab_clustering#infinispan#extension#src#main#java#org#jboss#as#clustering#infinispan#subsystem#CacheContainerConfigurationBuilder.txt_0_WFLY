@@ -1,0 +1,6 @@
+31beab
+@@ -143,3 +143,3 @@
+             if (executor != null) {
+-                transportBuilder.asyncTransportExecutor().factory(new ManagedExecutorFactory(executor));
++                transportBuilder.transportThreadPool().threadPoolFactory(new ManagedExecutorFactory(executor));
+             }

@@ -1,0 +1,6 @@
+f81af8
+@@ -25,3 +25,3 @@
+ 
+-	public static final String JPA_MAPPING_CONTEXT_BEAN_NAME = "jpaMapppingContext";
++	public static final String JPA_MAPPING_CONTEXT_BEAN_NAME = "jpaMappingContext";
+ }

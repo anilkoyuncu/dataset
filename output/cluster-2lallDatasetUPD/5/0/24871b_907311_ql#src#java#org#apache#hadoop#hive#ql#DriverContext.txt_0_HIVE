@@ -1,0 +1,6 @@
+907311
+@@ -131,3 +131,3 @@
+   public synchronized void shutdown() {
+-    LOG.warn("Shutting down query " + ctx.getCmd());
++    LOG.debug("Shutting down query " + ctx.getCmd());
+     shutdown = true;

@@ -1,0 +1,6 @@
+dae12a
+@@ -80,3 +80,3 @@
+     conf1.setFloat("hbase.regionserver.logroll.multiplier", 0.0003f);
+-    conf1.setInt("replication.source.size.capacity", 1024);
++    conf1.setInt("replication.source.size.capacity", 10240);
+     conf1.setLong("replication.source.sleepforretries", 100);

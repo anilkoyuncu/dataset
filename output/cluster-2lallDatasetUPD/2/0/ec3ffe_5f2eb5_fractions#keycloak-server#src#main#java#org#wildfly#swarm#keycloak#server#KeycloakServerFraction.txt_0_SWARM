@@ -1,0 +1,6 @@
+5f2eb5
+@@ -50,3 +50,3 @@
+ 
+-        spi("eventStore", (eventStore) -> {
++        spi("eventsStore", (eventStore) -> {
+             eventStore.defaultProvider("jpa");

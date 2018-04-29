@@ -1,0 +1,6 @@
+bd139b
+@@ -287,3 +287,3 @@
+ 							if (bundle.equals(eventBundle)) {
+-								treeViewer.update(items[i], null);
++								treeViewer.update(items[i].getData(), null);
+ 								updateTitle();

@@ -1,0 +1,6 @@
+0152e6
+@@ -437,3 +437,3 @@
+      */
+-    private class NaturalComparator implements Comparator, Serializable {
++    private static class NaturalComparator implements Comparator, Serializable {
+ 

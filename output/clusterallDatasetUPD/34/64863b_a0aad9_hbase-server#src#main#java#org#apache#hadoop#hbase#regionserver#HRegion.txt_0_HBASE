@@ -1,0 +1,6 @@
+a0aad9
+@@ -443,3 +443,3 @@
+ 
+-    this.isLoadingCfsOnDemandDefault = conf.getBoolean(LOAD_CFS_ON_DEMAND_CONFIG_KEY, false);
++    this.isLoadingCfsOnDemandDefault = conf.getBoolean(LOAD_CFS_ON_DEMAND_CONFIG_KEY, true);
+     this.htableDescriptor = htd;

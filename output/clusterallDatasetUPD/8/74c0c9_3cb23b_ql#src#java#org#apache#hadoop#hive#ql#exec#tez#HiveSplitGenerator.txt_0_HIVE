@@ -1,0 +1,6 @@
+3cb23b
+@@ -142,3 +142,3 @@
+           final long preferredSplitSize = Math.min(blockSize / 2, minGrouping);
+-          HiveConf.setLongVar(conf, HiveConf.ConfVars.MAPREDMINSPLITSIZE, preferredSplitSize);
++          HiveConf.setLongVar(jobConf, HiveConf.ConfVars.MAPREDMINSPLITSIZE, preferredSplitSize);
+           LOG.info("The preferred split size is " + preferredSplitSize);

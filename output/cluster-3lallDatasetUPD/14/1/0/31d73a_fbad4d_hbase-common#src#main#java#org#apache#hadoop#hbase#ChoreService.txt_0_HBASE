@@ -1,0 +1,6 @@
+fbad4d
+@@ -319,3 +319,3 @@
+    */
+-  public void shutdown() {
++  public synchronized void shutdown() {
+     scheduler.shutdownNow();

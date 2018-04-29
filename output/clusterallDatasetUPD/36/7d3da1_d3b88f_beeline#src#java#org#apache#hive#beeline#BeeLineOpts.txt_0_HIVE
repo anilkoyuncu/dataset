@@ -1,0 +1,6 @@
+d3b88f
+@@ -76,3 +76,3 @@
+   private boolean force = false;
+-  private boolean incremental = false;
++  private boolean incremental = true;
+   private int incrementalBufferRows = DEFAULT_INCREMENTAL_BUFFER_ROWS;

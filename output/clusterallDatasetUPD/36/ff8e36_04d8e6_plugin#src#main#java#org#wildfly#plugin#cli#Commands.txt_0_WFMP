@@ -1,0 +1,6 @@
+04d8e6
+@@ -74,3 +74,3 @@
+     @Parameter(alias = "fail-on-error", defaultValue = "true")
+-    private boolean failOnError;
++    private boolean failOnError = true;
+ 

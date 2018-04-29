@@ -1,0 +1,6 @@
+131e5d
+@@ -438,3 +438,3 @@
+       // Nothing to delete
+-      kv.updateLatestStamp(Bytes.toBytes(byteNow));
++      kv.updateLatestStamp(byteNow);
+       return;

@@ -1,0 +1,6 @@
+80ac12
+@@ -519,3 +519,3 @@
+                 } else {
+-                    securityIdentity = securityDomain.getAnonymousSecurityIdentity().createRunAsIdentity(user);
++                    securityIdentity = securityDomain.getAnonymousSecurityIdentity().createRunAsIdentity(user, false);
+                 }

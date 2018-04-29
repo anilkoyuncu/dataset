@@ -1,0 +1,6 @@
+e1848f
+@@ -47,3 +47,3 @@
+ 		ParsingUtils.setPropertyReference(element, builder, "pdx-serializer", "pdxSerializer");
+-		ParsingUtils.setPropertyValue(element, builder, "pdx-disk-store", "pdxDiskStore");
++		ParsingUtils.setPropertyValue(element, builder, "pdx-disk-store", "pdxDiskStoreName");
+ 		ParsingUtils.setPropertyValue(element, builder, "pdx-persistent", "pdxPersistent");

@@ -1,0 +1,6 @@
+cf6455
+@@ -31,3 +31,3 @@
+ 
+-	public void xtestBzipCreation()  throws Exception {
++	public void testBzipCreation()  throws Exception {
+ 	    File output = null;

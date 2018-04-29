@@ -1,0 +1,6 @@
+7594c9
+@@ -121,3 +121,3 @@
+         portTypesProvider.setFaultSuffix(faultSuffix);
+-        messagesProvider.setResponseSuffix(faultSuffix);
++        messagesProvider.setFaultSuffix(faultSuffix);
+     }

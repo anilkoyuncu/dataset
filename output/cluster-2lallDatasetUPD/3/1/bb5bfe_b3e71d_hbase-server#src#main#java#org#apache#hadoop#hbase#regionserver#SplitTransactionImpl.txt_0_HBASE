@@ -1,0 +1,6 @@
+b3e71d
+@@ -566,3 +566,3 @@
+     private final Region r;
+-    private volatile Throwable t = null;
++    private Throwable t = null;
+ 

@@ -1,0 +1,11 @@
+29c3b7
+@@ -114,3 +114,3 @@
+         if (Math.abs(yMin) <= functionValueAccuracy) {
+-            setResult(yMin, 0);
++            setResult(min, 0);
+             return result;
+@@ -126,3 +126,3 @@
+         if (Math.abs(yMax) <= functionValueAccuracy) {
+-            setResult(yMax, 0);
++            setResult(max, 0);
+             return result;

@@ -1,0 +1,6 @@
+1dde16
+@@ -5450,3 +5450,3 @@
+ 		if (outOfLine) {
+-			if (line.length() > delta) {
++			if (line.length() >= delta) {
+ 				delta = line.length();

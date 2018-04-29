@@ -1,0 +1,10 @@
+791a07
+@@ -287,5 +287,6 @@
+ 		boolean autoValidate = configuration.getAttribute(IPDELauncherConstants.AUTOMATIC_VALIDATE, false);
+-		SubMonitor subMonitor = SubMonitor.convert(monitor, "", autoValidate ? 3 : 4); //$NON-NLS-1$
+-		if (autoValidate)
++		SubMonitor subMonitor = SubMonitor.convert(monitor, autoValidate ? 3 : 4);
++		if (autoValidate) {
+ 			validatePluginDependencies(configuration, subMonitor.split(1));
++		}
+ 		validateProjectDependencies(configuration, subMonitor.split(1));

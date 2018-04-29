@@ -1,0 +1,6 @@
+d960ee
+@@ -3283,3 +3283,3 @@
+       (4 * Bytes.SIZEOF_LONG) + Bytes.SIZEOF_BOOLEAN +
+-      (22 * ClassSize.REFERENCE) + ClassSize.OBJECT + Bytes.SIZEOF_INT);
++      (23 * ClassSize.REFERENCE) + ClassSize.OBJECT + Bytes.SIZEOF_INT);
+ 

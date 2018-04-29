@@ -1,0 +1,6 @@
+649d75
+@@ -316,3 +316,3 @@
+         void applyFilter(final Set<Protocol> enabled, final EnumMap<Protocol, String> supported) {
+-            enabled.remove(protocols);
++            enabled.removeAll(protocols);
+         }

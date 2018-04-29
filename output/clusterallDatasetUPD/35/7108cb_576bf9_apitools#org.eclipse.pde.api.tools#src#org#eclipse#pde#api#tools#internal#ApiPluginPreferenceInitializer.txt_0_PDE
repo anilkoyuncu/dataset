@@ -1,0 +1,6 @@
+576bf9
+@@ -66,3 +66,3 @@
+ 		
+-		node.put(IApiProblemTypes.MISSING_DEFAULT_API_BASELINE, ApiPlugin.VALUE_WARNING);
++		node.put(IApiProblemTypes.MISSING_DEFAULT_API_BASELINE, ApiPlugin.VALUE_ERROR);
+ 

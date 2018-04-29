@@ -1,0 +1,6 @@
+4a761f
+@@ -60,3 +60,3 @@
+ 	int /*long*/ buttonHandle, entryHandle, listHandle, textRenderer, cellHandle, popupHandle, menuHandle;
+-	int lastEventTime, visibleCount = 5;
++	int lastEventTime, visibleCount = 30;
+ 	int /*long*/ gdkEventKey = 0;

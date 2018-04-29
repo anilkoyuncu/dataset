@@ -1,0 +1,8 @@
+cce073
+@@ -239,4 +239,5 @@
+         @Override
+-        public void channelInactive(ChannelHandlerContext ctx) {
++        public void channelInactive(ChannelHandlerContext ctx) throws Exception {
+           close();
++          super.channelInactive(ctx);
+         }

@@ -1,0 +1,6 @@
+4e3bc3
+@@ -265,3 +265,3 @@
+ 				loadModel(extensions, false);				
+-				addExtensionChange(model, IModelProviderEvent.MODELS_REMOVED);
++				addExtensionChange(model, IModelProviderEvent.MODELS_ADDED);
+ 			} else {

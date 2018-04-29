@@ -1,0 +1,6 @@
+ecaf7a
+@@ -46,3 +46,3 @@
+ 
+-    if(whiteListParamsStr == null && whiteListParamsStr.trim().isEmpty()) {
++    if(whiteListParamsStr == null || whiteListParamsStr.trim().isEmpty()) {
+       throw new HiveAuthzPluginException("Configuration parameter "

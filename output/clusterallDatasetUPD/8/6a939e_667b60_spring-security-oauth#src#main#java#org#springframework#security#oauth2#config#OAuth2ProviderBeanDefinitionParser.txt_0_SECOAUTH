@@ -1,0 +1,6 @@
+667b60
+@@ -167,3 +167,3 @@
+       }
+-      if (StringUtils.hasText(authUrl)) {
++      if (StringUtils.hasText(userAuthUrl)) {
+         verificationCodeFilterBean.addPropertyValue("filterProcessesUrl", userAuthUrl);

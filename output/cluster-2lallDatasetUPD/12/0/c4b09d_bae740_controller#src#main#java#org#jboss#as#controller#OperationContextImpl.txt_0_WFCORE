@@ -1,0 +1,6 @@
+bae740
+@@ -2356,3 +2356,3 @@
+             if (accessMechanism != null) {
+-                accessMechanismNode.set(accessMechanismNode.toString());
++                accessMechanismNode.set(accessMechanism.toString());
+             }

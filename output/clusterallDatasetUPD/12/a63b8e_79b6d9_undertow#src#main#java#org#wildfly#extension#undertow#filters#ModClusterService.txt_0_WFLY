@@ -1,0 +1,6 @@
+79b6d9
+@@ -150,3 +150,3 @@
+         }
+-        builder.setManagementHost(managementSocketBinding.getValue().getSocketAddress().getHostName());
++        builder.setManagementHost(managementSocketBinding.getValue().getSocketAddress().getHostString());
+         builder.setManagementPort(managementSocketBinding.getValue().getSocketAddress().getPort());

@@ -1,0 +1,6 @@
+c94c89
+@@ -193,3 +193,3 @@
+ 						if(((FileEditorInput)editor.getEditorInput()).getFile().getProject().equals(event.getResource())){
+-							IEditorPart editorPart = pages[i].findEditor((FileEditorInput)editor.getEditorInput());
++							IEditorPart editorPart = pages[i].findEditor(editor.getEditorInput());
+ 							pages[i].closeEditor(editorPart,true);

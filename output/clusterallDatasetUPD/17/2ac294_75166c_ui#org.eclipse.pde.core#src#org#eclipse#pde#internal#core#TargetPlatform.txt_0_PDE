@@ -1,0 +1,6 @@
+75166c
+@@ -55,3 +55,3 @@
+ 	private static String REFERENCE_PREFIX = "reference:"; //$NON-NLS-1$
+-	private static String FILE_URL_PREFIX = "file:/"; //$NON-NLS-1$
++	private static String FILE_URL_PREFIX = "file:"; //$NON-NLS-1$
+ 

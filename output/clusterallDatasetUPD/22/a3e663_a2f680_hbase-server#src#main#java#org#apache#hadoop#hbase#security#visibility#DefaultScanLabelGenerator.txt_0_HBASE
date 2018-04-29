@@ -1,0 +1,6 @@
+a2f680
+@@ -60,3 +60,3 @@
+       List<String> labels = authorizations.getLabels();
+-      String userName = user.getName();
++      String userName = user.getShortName();
+       List<String> auths = this.labelsManager.getAuths(userName);

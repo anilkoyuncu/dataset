@@ -1,0 +1,6 @@
+04837e
+@@ -65,3 +65,3 @@
+ 	public void testMatchEquivalent() {
+-		IPluginModelBase model = PluginRegistry.findModel("org.eclipse.jdt.debug", "3.10.0", IMatchRules.EQUIVALENT,
++		IPluginModelBase model = PluginRegistry.findModel("org.eclipse.jdt.debug", "3.11.0", IMatchRules.EQUIVALENT,
+ 				null);

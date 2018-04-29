@@ -1,0 +1,6 @@
+c05c86
+@@ -106,3 +106,3 @@
+ 				"	public java.util.Comparator<*> thenComparing(java.util.Comparator<? super *> other) { return null;}\n" +
+-				"	public <% extends java.lang.Comparable<? super %>> java.util.Comparator<*> thenComparing(java.util.function.Function<? super *, ? extends %> keyExtractor, java.util.Comparator<? super %> keyComparator) { return null;}\n" +
++				"	public <%> java.util.Comparator<*> thenComparing(java.util.function.Function<? super *, ? extends %> keyExtractor, java.util.Comparator<? super %> keyComparator) { return null;}\n" +
+ 				"	public <% extends java.lang.Comparable<? super %>> java.util.Comparator<*> thenComparing(java.util.function.Function<? super *, ? extends %> keyExtractor) { return null;}\n" +

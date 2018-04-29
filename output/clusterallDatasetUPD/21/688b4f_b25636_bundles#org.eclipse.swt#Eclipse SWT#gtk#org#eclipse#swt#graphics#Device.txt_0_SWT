@@ -1,0 +1,6 @@
+b25636
+@@ -716,3 +716,3 @@
+ 				css =
+-					"toolbar {padding-top: 2x; padding-bottom: 2px;}\n"
++					"toolbar {padding-top: 2px; padding-bottom: 2px;}\n"
+ 					+ "toolbar button {padding: 2px;}"

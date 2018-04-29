@@ -1,0 +1,6 @@
+f66bc3
+@@ -711,3 +711,3 @@
+ 					"GtkToolbar {padding-top: 4px; padding-bottom: 4px;}\n"
+-					+ "GtkToolbar GtkButton {padding: 4px 4px 4px 4px;}\n"
++					+ "GtkToolbar GtkButton {padding: 2px 4px 3px 4px;}\n"
+ 					+ ".undershoot.top, .undershoot.right, .undershoot.bottom, .undershoot.left {background-image: none;}\n"

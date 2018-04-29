@@ -1,0 +1,6 @@
+bfcf2e
+@@ -269,3 +269,3 @@
+                 }
+-                buf.append(lineSeparator).append("Use the --override or --preserve arguments in order to resolve the conflict.");
++                buf.append(lineSeparator).append("Use the --override-all, --override=[] or --preserve=[] arguments in order to resolve the conflict.");
+                 throw new CommandLineException(buf.toString());

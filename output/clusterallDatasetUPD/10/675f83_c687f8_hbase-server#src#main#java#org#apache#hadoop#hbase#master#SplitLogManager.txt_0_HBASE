@@ -1,0 +1,6 @@
+c687f8
+@@ -144,3 +144,3 @@
+         } catch (IOException e) {
+-          LOG.warn("Could not finish splitting of log file " + logfile);
++          LOG.warn("Could not finish splitting of log file " + logfile, e);
+           return Status.ERR;

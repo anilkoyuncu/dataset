@@ -1,0 +1,6 @@
+639088
+@@ -114,3 +114,3 @@
+ 		element.setName("fragment"); //$NON-NLS-1$
+-		element.setAttribute("apply", "initial"); //$NON-NLS-1$ //$NON-NLS-2$
++		element.setAttribute("apply", "notexists"); //$NON-NLS-1$ //$NON-NLS-2$
+ 		element.setAttribute("uri", E4_FRAGMENT_FILE); //$NON-NLS-1$

@@ -1,0 +1,6 @@
+0af77e
+@@ -28,3 +28,3 @@
+ 		store.setDefault(IPreferenceConstants.PROP_SHOW_OBJECTS, IPreferenceConstants.VALUE_USE_IDS);
+-		store.setDefault(IPreferenceConstants.EDITOR_FOLDING_ENABLED, true);
++		store.setDefault(IPreferenceConstants.EDITOR_FOLDING_ENABLED, false);
+ 		store.setDefault(IPreferenceConstants.DEFAULT_OSGI_FRAMEOWRK, OSGiFrameworkManager.DEFAULT_FRAMEWORK);

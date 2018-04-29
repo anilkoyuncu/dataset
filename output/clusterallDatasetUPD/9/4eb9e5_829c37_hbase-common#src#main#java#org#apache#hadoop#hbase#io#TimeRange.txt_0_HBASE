@@ -1,0 +1,6 @@
+829c37
+@@ -76,3 +76,3 @@
+       throw new IllegalArgumentException("Timestamp cannot be negative. minStamp:" + minStamp
+-        + ", maxStamp" + maxStamp);
++        + ", maxStamp:" + maxStamp);
+     }

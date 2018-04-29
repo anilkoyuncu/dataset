@@ -1,0 +1,6 @@
+d012f8
+@@ -180,3 +180,3 @@
+     }
+-    addJars(conf.get(MR_JAR_PROPERTY));
++    addJars(jobConf.get(MR_JAR_PROPERTY));
+ 

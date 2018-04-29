@@ -1,0 +1,6 @@
+6cda1d
+@@ -88,3 +88,3 @@
+ 
+-    private String encoding;
++    private String encoding = "UTF-8";
+ 

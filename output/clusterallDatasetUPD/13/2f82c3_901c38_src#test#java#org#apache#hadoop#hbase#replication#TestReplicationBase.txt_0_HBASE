@@ -1,0 +1,6 @@
+901c38
+@@ -65,3 +65,3 @@
+   protected static final long SLEEP_TIME = 1000;
+-  protected static final int NB_RETRIES = 10;
++  protected static final int NB_RETRIES = 15;
+ 

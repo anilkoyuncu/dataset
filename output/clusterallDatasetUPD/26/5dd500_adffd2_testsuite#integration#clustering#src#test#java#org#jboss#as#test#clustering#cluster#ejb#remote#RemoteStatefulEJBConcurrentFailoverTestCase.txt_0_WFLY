@@ -1,0 +1,5 @@
+adffd2
+@@ -61,2 +61,3 @@
+ @RunAsClient
++@org.junit.Ignore("WFLY-9130")
+ public class RemoteStatefulEJBConcurrentFailoverTestCase extends ClusterAbstractTestCase {

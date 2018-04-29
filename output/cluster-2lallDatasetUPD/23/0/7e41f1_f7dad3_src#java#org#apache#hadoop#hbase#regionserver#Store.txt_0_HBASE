@@ -1,0 +1,6 @@
+f7dad3
+@@ -1500,3 +1500,3 @@
+       ClassSize.OBJECT + (17 * ClassSize.REFERENCE) +
+-      (5 * Bytes.SIZEOF_LONG) + (3 * Bytes.SIZEOF_INT) + Bytes.SIZEOF_BOOLEAN +
++      (6 * Bytes.SIZEOF_LONG) + (3 * Bytes.SIZEOF_INT) + Bytes.SIZEOF_BOOLEAN +
+       ClassSize.align(ClassSize.ARRAY));

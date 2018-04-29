@@ -1,0 +1,6 @@
+c34bf4
+@@ -263,3 +263,3 @@
+ 		} else {
+-			fNameText.setValue(null);
++			fNameText.setValue(null, true);
+ 			fOptionalButton.setSelection(false);

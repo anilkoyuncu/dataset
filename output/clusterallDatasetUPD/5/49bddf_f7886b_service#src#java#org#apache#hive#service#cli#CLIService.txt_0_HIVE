@@ -1,0 +1,6 @@
+f7886b
+@@ -379,3 +379,3 @@
+         // The background operation thread was aborted
+-        LOG.trace(opHandle + ": The background operation was aborted", e);
++        LOG.warn(opHandle + ": The background operation was aborted", e);
+       } catch (InterruptedException e) {

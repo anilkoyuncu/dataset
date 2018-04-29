@@ -1,0 +1,6 @@
+c3c82f
+@@ -51,3 +51,3 @@
+ @InterfaceStability.Evolving
+-public interface WAL extends AutoCloseable {
++public interface WAL extends Closeable {
+ 

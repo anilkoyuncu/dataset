@@ -1,0 +1,6 @@
+8c127a
+@@ -382,3 +382,3 @@
+ 		if (!safeExtension(servletRequest, ext) || !safeExtension(servletRequest, extInPathParams)) {
+-			headers.add(HttpHeaders.CONTENT_DISPOSITION, "attachment;filename=f.txt");
++			headers.add(HttpHeaders.CONTENT_DISPOSITION, "inline;filename=f.txt");
+ 		}

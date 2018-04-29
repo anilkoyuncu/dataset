@@ -1,0 +1,6 @@
+95f967
+@@ -1784,3 +1784,3 @@
+         }
+-        metaStoreClient.addDynamicPartitions(txnId, tbl.getDbName(), tbl.getTableName(),
++        getMSC().addDynamicPartitions(txnId, tbl.getDbName(), tbl.getTableName(),
+           partNames, AcidUtils.toDataOperationType(operation));

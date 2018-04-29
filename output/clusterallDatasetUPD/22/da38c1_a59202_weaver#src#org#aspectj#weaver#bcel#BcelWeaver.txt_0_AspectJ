@@ -1,0 +1,6 @@
+a59202
+@@ -293,3 +293,3 @@
+ 		String typeName = type.getName().replace('.', File.separatorChar);
+-		int end = name.indexOf(typeName+".class");
++		int end = name.lastIndexOf(typeName+".class");
+ 		String binaryPath = null;

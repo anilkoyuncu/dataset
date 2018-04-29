@@ -1,0 +1,6 @@
+ea0c37
+@@ -96,3 +96,3 @@
+ 				WebUtils.getNativeResponse(response, ContentCachingResponseWrapper.class);
+-		Assert.notNull(responseWrapper, "ShallowEtagResponseWrapper not found");
++		Assert.notNull(responseWrapper, "ContentCachingResponseWrapper not found");
+ 		HttpServletResponse rawResponse = (HttpServletResponse) responseWrapper.getResponse();

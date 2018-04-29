@@ -1,0 +1,10 @@
+ac8b6f
+@@ -31,6 +31,6 @@
+  */
+-public class FSMapRUtils {
++public class FSMapRUtils extends FSUtils {
+   private static final Log LOG = LogFactory.getLog(FSMapRUtils.class);
+   
+-  public static void recoverFileLease(final FileSystem fs, final Path p, 
++  public void recoverFileLease(final FileSystem fs, final Path p, 
+       Configuration conf) throws IOException {

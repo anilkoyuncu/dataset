@@ -1,0 +1,6 @@
+4db85f
+@@ -588,3 +588,3 @@
+ 		event.detail = SWT.CHECK;
+-		postEvent (SWT.Selection, event);
++		parent.postEvent (SWT.Selection, event);
+ 	}

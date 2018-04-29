@@ -1,0 +1,6 @@
+bcdc56
+@@ -109,3 +109,3 @@
+         .append(metricsJmxContext)
+-        .hashCode();
++        .toHashCode();
+   }

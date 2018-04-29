@@ -1,0 +1,6 @@
+180c5b
+@@ -173,3 +173,3 @@
+ 				throw new IllegalArgumentException(
+-						"staticField must be a fully qualified class plus method name: " +
++						"staticField must be a fully qualified class plus static field name: " +
+ 						"e.g. 'example.MyExampleClass.MY_EXAMPLE_FIELD'");

@@ -1,0 +1,6 @@
+ac2247
+@@ -139,3 +139,3 @@
+ 			String typeDirectory = FileUtils.getFirstDirectory(fileCanonicalPath);
+-			String simpleTypeName = StringUtils.replaceFirst(fileCanonicalPath, typeDirectory + File.separator, "").replace("\\.java", "");
++			String simpleTypeName = StringUtils.replaceFirst(fileCanonicalPath, typeDirectory + File.separator, "").replace(".java", "");
+ 			JavaPackage javaPackage = typeResolutionService.getPackage(fileCanonicalPath);

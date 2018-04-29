@@ -1,0 +1,6 @@
+d83d5e
+@@ -161,3 +161,3 @@
+                         final Credential credential = executePrincipalQuery(configuration, r -> keyMapper.map(r, providers));
+-                        if (credential.matches(credentialType, algorithmName, parameterSpec)) {
++                        if (credential != null && credential.matches(credentialType, algorithmName, parameterSpec)) {
+                             return credentialType.cast(credential);

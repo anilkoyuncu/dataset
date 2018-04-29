@@ -1,0 +1,7 @@
+b85509
+@@ -1480,3 +1480,4 @@
+       ClassSize.OBJECT + (15 * ClassSize.REFERENCE) +
+-      (5 * Bytes.SIZEOF_LONG) + (3 * Bytes.SIZEOF_INT) + (Bytes.SIZEOF_BOOLEAN * 2));
++      (5 * Bytes.SIZEOF_LONG) +
++      (4 * Bytes.SIZEOF_INT) + (Bytes.SIZEOF_BOOLEAN * 2));
+ 

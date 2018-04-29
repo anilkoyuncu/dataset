@@ -1,0 +1,6 @@
+89429b
+@@ -33,3 +33,3 @@
+ public class TestOldAPITimestamp extends HBaseClusterTestCase {
+-  public static String COLUMN_NAME = "contents:";
++  public static String COLUMN_NAME = "colfamily1:";
+ 

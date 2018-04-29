@@ -1,0 +1,6 @@
+297313
+@@ -21,3 +21,3 @@
+ 
+-	private long currentId = 0;
++	private static long currentId = 0;
+ 

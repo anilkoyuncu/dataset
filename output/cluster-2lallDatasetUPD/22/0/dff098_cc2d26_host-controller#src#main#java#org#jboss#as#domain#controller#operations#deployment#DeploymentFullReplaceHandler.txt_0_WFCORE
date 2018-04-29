@@ -1,0 +1,6 @@
+cc2d26
+@@ -155,3 +155,3 @@
+         // Update server groups
+-        final Resource root = context.readResource(PathAddress.EMPTY_ADDRESS);
++        final Resource root = context.readResourceForUpdate(PathAddress.EMPTY_ADDRESS);
+         if (root.hasChild(PathElement.pathElement(SERVER_GROUP))) {

@@ -1,0 +1,6 @@
+2d475c
+@@ -58,3 +58,3 @@
+ public abstract class Filter {
+-  protected boolean reversed;
++  protected transient boolean reversed;
+   /**

@@ -1,0 +1,6 @@
+110f4f
+@@ -852,3 +852,3 @@
+         }
+-        error("Unable to connect due to unrecognised server certificate");
++        printLine("Unable to connect due to unrecognised server certificate");
+         for (Certificate current : lastChain) {

@@ -1,0 +1,6 @@
+a544e3
+@@ -49,3 +49,3 @@
+      */
+-    static final char[] US_ENGLISH_MAPPING = US_ENGLISH_MAPPING_STRING.toCharArray();
++    private static final char[] US_ENGLISH_MAPPING = US_ENGLISH_MAPPING_STRING.toCharArray();
+ 

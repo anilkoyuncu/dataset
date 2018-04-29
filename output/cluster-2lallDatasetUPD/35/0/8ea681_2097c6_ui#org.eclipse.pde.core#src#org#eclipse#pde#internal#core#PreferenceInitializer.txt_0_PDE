@@ -1,0 +1,6 @@
+2097c6
+@@ -65,3 +65,3 @@
+ 		prefs.putInt(CompilerFlags.P_BUILD, CompilerFlags.WARNING);
+-		prefs.putInt(CompilerFlags.P_BUILD_MISSING_OUTPUT, CompilerFlags.WARNING);
++		prefs.putInt(CompilerFlags.P_BUILD_MISSING_OUTPUT, CompilerFlags.IGNORE);
+ 		prefs.putInt(CompilerFlags.P_INCOMPATIBLE_ENV, CompilerFlags.WARNING);

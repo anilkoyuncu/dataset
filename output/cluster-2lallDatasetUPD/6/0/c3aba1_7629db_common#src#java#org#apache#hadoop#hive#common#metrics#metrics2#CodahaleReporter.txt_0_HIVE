@@ -1,0 +1,6 @@
+7629db
+@@ -22,3 +22,3 @@
+ 
+-interface CodahaleReporter extends Closeable, Reporter {
++public interface CodahaleReporter extends Closeable, Reporter {
+ 

@@ -1,0 +1,6 @@
+bd0f1f
+@@ -367,3 +367,3 @@
+ 
+-		Set querySet = queryResult.unmodifiableSet();
++		Set querySet = queryResult.toUnmodifiableSet();
+ 		Iterator itor = querySet.iterator();

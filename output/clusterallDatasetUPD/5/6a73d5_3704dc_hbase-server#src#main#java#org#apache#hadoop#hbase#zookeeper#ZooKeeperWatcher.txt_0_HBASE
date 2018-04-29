@@ -1,0 +1,6 @@
+3704dc
+@@ -161,3 +161,3 @@
+       // Create all the necessary "directories" of znodes
+-      ZKUtil.createAndFailSilent(this, baseZNode);
++      ZKUtil.createWithParents(this, baseZNode);
+       ZKUtil.createAndFailSilent(this, assignmentZNode);

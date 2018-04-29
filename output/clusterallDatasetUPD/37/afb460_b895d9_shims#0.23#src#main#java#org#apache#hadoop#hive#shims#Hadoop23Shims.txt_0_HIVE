@@ -1,0 +1,6 @@
+b895d9
+@@ -1268,3 +1268,3 @@
+     try {
+-      method = clazz.getMethod("getSubject");
++      method = clazz.getDeclaredMethod("getSubject");
+       method.setAccessible(true);

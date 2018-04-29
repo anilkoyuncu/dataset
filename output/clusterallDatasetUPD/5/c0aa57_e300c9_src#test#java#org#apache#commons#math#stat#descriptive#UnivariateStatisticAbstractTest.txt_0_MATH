@@ -1,0 +1,6 @@
+e300c9
+@@ -212,3 +212,3 @@
+         WeightedEvaluation weightedStatistic = (WeightedEvaluation) statistic;
+-        TestUtils.assertRelativelyEquals(statistic.evaluate(repeatedValues),
++        TestUtils.assertEquals(statistic.evaluate(repeatedValues),
+                 weightedStatistic.evaluate(values, weights, 0, values.length),

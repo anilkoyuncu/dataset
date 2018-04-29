@@ -1,0 +1,6 @@
+011442
+@@ -1162,3 +1162,3 @@
+     } else {
+-      requirePermission("restore", Action.ADMIN);
++      requirePermission("restoreSnapshot", Action.ADMIN);
+     }
